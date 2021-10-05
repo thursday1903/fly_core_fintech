@@ -1,0 +1,54 @@
+27-05-21 03:03:18,617 148 0    [main] ERROR springboot.hbn.home.BaseHibernateHome  - get failed
+org.hibernate.TypeMismatchException: Provided id of the wrong type for class springboot.hbn.entities.TblProduct. Expected: class springboot.hbn.entities.TblProductId, got class java.lang.Integer
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:134)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1070)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:176)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2551)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:955)
+	at springboot.hbn.home.BaseHibernateHome.findById(BaseHibernateHome.java:247)
+	at springboot.mongo.dao.BaseMongo.getAllOldocument(BaseMongo.java:117)
+	at springboot.mongo.dao.BaseMongo.main(BaseMongo.java:131)
+27-05-21 03:03:20,478 88 1861 [main] FATAL springboot.utils.EmailProcess  - SEND MAIL
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e29sm57405pfm.110 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at springboot.utils.EmailProcess.sendEmailAlert(EmailProcess.java:172)
+	at springboot.hbn.home.BaseHibernateHome.composeAlertAndSend(BaseHibernateHome.java:368)
+	at springboot.hbn.home.BaseHibernateHome.findById(BaseHibernateHome.java:256)
+	at springboot.mongo.dao.BaseMongo.getAllOldocument(BaseMongo.java:117)
+	at springboot.mongo.dao.BaseMongo.main(BaseMongo.java:131)
+27-05-21 03:21:49,393 148 0    [main] ERROR springboot.hbn.home.BaseHibernateHome  - get failed
+org.hibernate.TypeMismatchException: Provided id of the wrong type for class springboot.hbn.entities.TblProduct. Expected: class springboot.hbn.entities.TblProductId, got class java.lang.Integer
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:134)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1070)
+	at org.hibernate.internal.SessionImpl.access$2000(SessionImpl.java:176)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2551)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:955)
+	at springboot.hbn.home.BaseHibernateHome.findById(BaseHibernateHome.java:247)
+	at springboot.mongo.dao.BaseMongo.getAllOldocument(BaseMongo.java:117)
+	at springboot.mongo.dao.BaseMongo.main(BaseMongo.java:132)
+27-05-21 03:21:51,082 88 1689 [main] FATAL springboot.utils.EmailProcess  - SEND MAIL
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y1sm87138pfn.13 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at springboot.utils.EmailProcess.sendEmailAlert(EmailProcess.java:172)
+	at springboot.hbn.home.BaseHibernateHome.composeAlertAndSend(BaseHibernateHome.java:368)
+	at springboot.hbn.home.BaseHibernateHome.findById(BaseHibernateHome.java:256)
+	at springboot.mongo.dao.BaseMongo.getAllOldocument(BaseMongo.java:117)
+	at springboot.mongo.dao.BaseMongo.main(BaseMongo.java:132)

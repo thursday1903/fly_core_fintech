@@ -1,0 +1,25 @@
+30-05-21 00:03:56,361 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 00:03:56 ICT 2021
+30-05-21 00:12:43,156 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 00:12:43 ICT 2021
+30-05-21 00:15:40,009 40 1    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 00:15:40 ICT 2021
+30-05-21 00:39:49,849 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 00:39:49 ICT 2021
+30-05-21 15:02:47,062 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 15:02:47 ICT 2021
+30-05-21 15:15:12,099 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 15:15:12 ICT 2021
+30-05-21 15:16:58,284 40 106185 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Products
+30-05-21 15:21:32,221 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 15:21:32 ICT 2021
+30-05-21 15:30:20,135 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 15:30:20 ICT 2021
+30-05-21 15:32:31,306 40 131171 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Products
+30-05-21 15:34:21,024 40 240889 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Products
+30-05-21 22:45:41,112 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 22:45:41 ICT 2021
+30-05-21 22:47:45,774 40 124662 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Products
+30-05-21 22:47:47,998 40 126886 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:47:49,759 40 128647 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:47:53,107 40 131995 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:47:54,995 40 133883 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:47:56,129 40 135017 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:52:18,694 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 22:52:18 ICT 2021
+30-05-21 22:52:20,945 40 2251 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:52:22,577 40 3883 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:52:25,422 40 6728 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:52:27,096 40 8402 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 22:52:28,281 40 9587 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete Extrafee
+30-05-21 23:22:11,033 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sun May 30 23:22:11 ICT 2021

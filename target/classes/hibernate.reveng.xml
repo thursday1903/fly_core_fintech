@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<!-- <table-filter match-name="TBL_TRANSFER" /> -->
+	<table-filter match-name="TBL_MONEY_TRANSFER_TRANSACTION" />
+	<table-filter match-name="TBL_BANK_CONNECTORS" />
+	<table-filter match-name="TBL_BANKCODE_ROUTE" />
+	<table-filter match-name="TBL_MONEY_TRANSFER_PARTNER" />
+	<table-filter match-name="TBL_MONEY_TRANSFER_CHECK_USER" />
+	<table-filter match-name="TBL_MONEY_TRANSFER_REQ_LOG2" />
+	<table-filter match-name="TBL_MONEY_TRAN_TEMP_FEE" />
+	<table-filter match-name="TBL_MONEY_TRAN_TEMP_FEE_ASSIGN" />
+	<table-filter match-name="TBL_TRANSACTIONS" />
+</hibernate-reverse-engineering>

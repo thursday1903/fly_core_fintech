@@ -1,0 +1,712 @@
+10-09-20 16:13:13,036 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+10-09-20 16:13:13,051 40 15   [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+10-09-20 16:13:13,555 40 519  [main] INFO  springboot.Bussiness  - DATA:HEHE
+10-09-20 16:13:13,556 40 520  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+10-09-20 16:13:13,557 40 521  [main] INFO  springboot.Bussiness  - VR:true
+10-09-20 16:13:30,888 40 17852 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$4884b9e7  - -----------_START FIRM SERVER INSTANCE SUCCESS AT----------Thu Sep 10 16:13:30 ICT 2020
+10-09-20 16:15:20,345 40 127309 [http-nio-8084-exec-3] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+10-09-20 16:15:20,347 40 127311 [http-nio-8084-exec-3] INFO  springboot.Controller  - >>>>>REQUEST FROM[127.0.0.1][{"RequestId":"IMT00098_159972932024310002","RequestTime":"2020-09-10 16:15:20","PartnerCode":"PARTNERTEST","Operation":"9002","BankNo":"970418","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"159972932024310003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"","currency":"","content":"","AccName":"NGUY?N TH? ?I?P","Memo":"Tra no cho ban","BankBranch":"970418"}]
+10-09-20 16:15:20,477 40 127441 [http-nio-8084-exec-3] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - TRU TIEN DOI TAC:PARTNERTEST,SO DU TRUOC:262121980,SO DU SAU:262069980,SO TIEN YC:52000
+10-09-20 16:15:20,541 40 127505 [http-nio-8084-exec-3] INFO  springboot.Bussiness  - REQUEST:FirmMessage [RequestId=IMT00098_159972932024310002, RequestTime=2020-09-10 16:15:20, PartnerCode=PARTNERTEST, Operation=9002, BankNo=970418, AccNo=12210000395856, Signature=sig, AccType=0, ReferenceId=159972932024310003, RequestAmount=50000TRU TIEN THANH CONG:52000
+10-09-20 16:15:20,578 40 127542 [http-nio-8084-exec-3] INFO  springboot.Bussiness  - OPERATION:INNIT 9002
+10-09-20 16:15:20,578 40 127542 [http-nio-8084-exec-3] INFO  springboot.Bussiness  - DATA BF SIGN:99|TRANSACTION PENDING|159972932024310003|2020091016152043958120000|2020-09-10 04:15:20|970418|970418|12210000395856|NGUY?N TH? ?I?P|50000|50000
+10-09-20 16:15:20,593 40 127557 [http-nio-8084-exec-3] INFO  springboot.Bussiness  - DATA AF SIGN:baQxUd3Fc+lJ0l5RHiV3DmY5H5fyyk/ESC55WEc2MMq4h1kVFY4qfcoOqk/zq/alwUM7KBIGkFum
+2Hw26ajzNvh9Xreain2mog8QJlmeZRMAQr9GsGKXvJXjTvNKDXgBhOsrtwaIp4X+BGcuLGuCv26l
+M97m9HKjC+/Lc7GTCbE=
+10-09-20 16:15:20,593 40 127557 [http-nio-8084-exec-3] INFO  springboot.Bussiness  - VERIFY RS:true
+10-09-20 16:15:20,595 40 127559 [http-nio-8084-exec-3] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[127.0.0.1][{"RequestId":"IMT00098_159972932024310002","RequestTime":"2020-09-10 16:15:20","PartnerCode":"PARTNERTEST","Operation":"9002","BankNo":"970418","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"159972932024310003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"","currency":"","content":"","AccName":"NGUY?N TH? ?I?P","Memo":"Tra no cho ban","BankBranch":"970418"}]:[{"RequestId":"IMT00098_159972932024310002","RequestTime":"2020-09-10 16:15:20","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970418","AccNo":"12210000395856","Signature":"baQxUd3Fc+lJ0l5RHiV3DmY5H5fyyk/ESC55WEc2MMq4h1kVFY4qfcoOqk/zq/alwUM7KBIGkFum\n2Hw26ajzNvh9Xreain2mog8QJlmeZRMAQr9GsGKXvJXjTvNKDXgBhOsrtwaIp4X+BGcuLGuCv26l\nM97m9HKjC+/Lc7GTCbE=","AccType":"0","ReferenceId":"159972932024310003","RequestAmount":"50000","ResponseCode":99,"ResponseMessage":"TRANSACTION PENDING","FinalStatus":"","AccName":"NGUY?N TH? ?I?P","TransferAmount":"50000","TransactionId":"2020091016152043958120000","TransactionTime":"2020-09-10 04:15:20","BankBranch":"970418","Memo":"Tra no cho ban"}]
+10-09-20 16:17:26,751 40 253715 [http-nio-8084-exec-4] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+10-09-20 16:17:26,754 40 253718 [http-nio-8084-exec-4] INFO  springboot.Controller  - >>>>>REQUEST FROM[127.0.0.1][{"RequestId":"IMT00098_159972944670710002","RequestTime":"2020-09-10 16:17:26","PartnerCode":"PARTNERTEST","Operation":"9002","BankNo":"970418","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"159972944670710003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"","currency":"","content":"","AccName":"NGUY?N TH? ?I?P","Memo":"Chuyen tien cho a","BankBranch":"970418"}]
+10-09-20 16:17:26,784 40 253748 [http-nio-8084-exec-4] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - TRU TIEN DOI TAC:PARTNERTEST,SO DU TRUOC:262069980,SO DU SAU:262017980,SO TIEN YC:52000
+10-09-20 16:17:26,797 40 253761 [http-nio-8084-exec-4] INFO  springboot.Bussiness  - REQUEST:FirmMessage [RequestId=IMT00098_159972944670710002, RequestTime=2020-09-10 16:17:26, PartnerCode=PARTNERTEST, Operation=9002, BankNo=970418, AccNo=12210000395856, Signature=sig, AccType=0, ReferenceId=159972944670710003, RequestAmount=50000TRU TIEN THANH CONG:52000
+10-09-20 16:17:26,810 40 253774 [http-nio-8084-exec-4] INFO  springboot.Bussiness  - OPERATION:INNIT 9002
+10-09-20 16:17:26,810 40 253774 [http-nio-8084-exec-4] INFO  springboot.Bussiness  - DATA BF SIGN:99|TRANSACTION PENDING|159972944670710003|2020091016172677153220001|2020-09-10 04:17:26|970418|970418|12210000395856|NGUY?N TH? ?I?P|50000|50000
+10-09-20 16:17:26,820 40 253784 [http-nio-8084-exec-4] INFO  springboot.Bussiness  - DATA AF SIGN:AejWU7nZHIXy0xTEbowJEvjXyh26tQr9mc5eRcUlXoINZeeuk3jK66sC9+N9DwIosApPH14rT6PA
+G3kG2MemncavMJC+q4eRN2e9/6/aMxMUTmtBBqPtMbd+3qH/ULzD3vupfI8pObNcyLzAvWbFOqNo
+ddF9CerMUmifbKZhUJk=
+10-09-20 16:17:26,820 40 253784 [http-nio-8084-exec-4] INFO  springboot.Bussiness  - VERIFY RS:true
+10-09-20 16:17:26,822 40 253786 [http-nio-8084-exec-4] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[127.0.0.1][{"RequestId":"IMT00098_159972944670710002","RequestTime":"2020-09-10 16:17:26","PartnerCode":"PARTNERTEST","Operation":"9002","BankNo":"970418","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"159972944670710003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"","currency":"","content":"","AccName":"NGUY?N TH? ?I?P","Memo":"Chuyen tien cho a","BankBranch":"970418"}]:[{"RequestId":"IMT00098_159972944670710002","RequestTime":"2020-09-10 16:17:26","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970418","AccNo":"12210000395856","Signature":"AejWU7nZHIXy0xTEbowJEvjXyh26tQr9mc5eRcUlXoINZeeuk3jK66sC9+N9DwIosApPH14rT6PA\nG3kG2MemncavMJC+q4eRN2e9/6/aMxMUTmtBBqPtMbd+3qH/ULzD3vupfI8pObNcyLzAvWbFOqNo\nddF9CerMUmifbKZhUJk=","AccType":"0","ReferenceId":"159972944670710003","RequestAmount":"50000","ResponseCode":99,"ResponseMessage":"TRANSACTION PENDING","FinalStatus":"","AccName":"NGUY?N TH? ?I?P","TransferAmount":"50000","TransactionId":"2020091016172677153220001","TransactionTime":"2020-09-10 04:17:26","BankBranch":"970418","Memo":"Chuyen tien cho a"}]
+10-09-20 16:21:33,971 40 500935 [http-nio-8084-exec-6] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+10-09-20 16:21:33,974 40 500938 [http-nio-8084-exec-6] INFO  springboot.Controller  - >>>>>REQUEST FROM[127.0.0.1][{"RequestId":"IMT00098_159972969392410002","RequestTime":"2020-09-10 16:21:33","PartnerCode":"PARTNERTEST","Operation":"9002","BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"159972969392410003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"","currency":"","content":"","AccName":"NGUYEN THI CA CHEP","Memo":"Gau cho tien di choi","BankBranch":"970415"}]
+10-09-20 16:21:34,003 40 500967 [http-nio-8084-exec-6] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - TRU TIEN DOI TAC:PARTNERTEST,SO DU TRUOC:262017980,SO DU SAU:261965980,SO TIEN YC:52000
+10-09-20 16:21:34,013 40 500977 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - REQUEST:FirmMessage [RequestId=IMT00098_159972969392410002, RequestTime=2020-09-10 16:21:33, PartnerCode=PARTNERTEST, Operation=9002, BankNo=970415, AccNo=12210000395856, Signature=sig, AccType=0, ReferenceId=159972969392410003, RequestAmount=50000TRU TIEN THANH CONG:52000
+10-09-20 16:21:34,026 40 500990 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - OPERATION:INNIT 9002
+10-09-20 16:21:34,026 40 500990 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - DATA BF SIGN:99|TRANSACTION PENDING|159972969392410003|2020091016213398862090002|2020-09-10 04:21:33|970415|970415|12210000395856|NGUYEN THI CA CHEP|50000|50000
+10-09-20 16:21:34,044 40 501008 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - DATA AF SIGN:MgxGXAYARMkj9NjujndLx5iHyKrxrjopTaFoIY7m1zum4Rd/HztgXA9JbD54EZr6ySdY/Ky63ja+
+0F43rOi8hlypj+Uz/d2mSUxE6BT277EXpC2KpMZiWIiGBFu0AdEcJ8jDLSiD8FxHMcAbpn48Hgql
+qeOIp5ozZ7qsS3wJMSw=
+10-09-20 16:21:34,044 40 501008 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - VERIFY RS:true
+10-09-20 16:21:34,045 40 501009 [http-nio-8084-exec-6] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[127.0.0.1][{"RequestId":"IMT00098_159972969392410002","RequestTime":"2020-09-10 16:21:33","PartnerCode":"PARTNERTEST","Operation":"9002","BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"159972969392410003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"","currency":"","content":"","AccName":"NGUYEN THI CA CHEP","Memo":"Gau cho tien di choi","BankBranch":"970415"}]:[{"RequestId":"IMT00098_159972969392410002","RequestTime":"2020-09-10 16:21:33","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"MgxGXAYARMkj9NjujndLx5iHyKrxrjopTaFoIY7m1zum4Rd/HztgXA9JbD54EZr6ySdY/Ky63ja+\n0F43rOi8hlypj+Uz/d2mSUxE6BT277EXpC2KpMZiWIiGBFu0AdEcJ8jDLSiD8FxHMcAbpn48Hgql\nqeOIp5ozZ7qsS3wJMSw=","AccType":"0","ReferenceId":"159972969392410003","RequestAmount":"50000","ResponseCode":99,"ResponseMessage":"TRANSACTION PENDING","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","TransferAmount":"50000","TransactionId":"2020091016213398862090002","TransactionTime":"2020-09-10 04:21:33","BankBranch":"970415","Memo":"Gau cho tien di choi"}]
+10-09-20 16:29:15,618 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+10-09-20 16:29:15,622 40 4    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+10-09-20 16:29:15,925 40 307  [main] INFO  springboot.Bussiness  - DATA:HEHE
+10-09-20 16:29:15,926 40 308  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+10-09-20 16:29:15,926 40 308  [main] INFO  springboot.Bussiness  - VR:true
+10-09-20 16:29:26,863 40 11245 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$ca388ae  - -----------_START FIRM SERVER INSTANCE SUCCESS AT----------Thu Sep 10 16:29:26 ICT 2020
+10-09-20 16:29:26,943 40 11325 [Timer-2] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020091015581112839950000","RequestTime":"2020-09-10 15:58:15.0","PartnerCode":"PARTNERTEST","Operation":"","BankNo":"970418","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"159972829589810003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUY?N TH? ?I?P","currency":"VND","content":"Chuyen xeng cho z"}
+10-09-20 16:29:27,412 40 11794 [Timer-2] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"202009101601304685600000","RequestTime":"2020-09-10 16:01:35.0","PartnerCode":"PARTNERTEST","Operation":"","BankNo":"970418","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"159972849525410003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUY?N TH? ?I?P","currency":"VND","content":"Tien luong thang sau"}
+10-09-20 16:29:27,426 40 11808 [Timer-2] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020091016080218527450001","RequestTime":"2020-09-10 16:08:07.0","PartnerCode":"PARTNERTEST","Operation":"","BankNo":"970418","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"159972888701310003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUY?N TH? ?I?P","currency":"VND","content":"Chuyen tien cho a"}
+10-09-20 16:29:27,442 40 11824 [Timer-2] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020091016094957958000000","RequestTime":"2020-09-10 16:09:54.0","PartnerCode":"PARTNERTEST","Operation":"","BankNo":"970418","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"159972899438610003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUY?N TH? ?I?P","currency":"VND","content":"Tra no cho ban"}
+10-09-20 16:29:27,461 40 11843 [Timer-2] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020091016213398862090002","RequestTime":"2020-09-10 16:21:33.0","PartnerCode":"PARTNERTEST","Operation":"","BankNo":"970415","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"159972969392410003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUYEN THI CA CHEP","currency":"VND","content":"Gau cho tien di choi"}
+10-09-20 16:29:27,478 40 11860 [Timer-2] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020091016152043958120000","RequestTime":"2020-09-10 16:15:20.0","PartnerCode":"PARTNERTEST","Operation":"","BankNo":"970418","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"159972932024310003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUY?N TH? ?I?P","currency":"VND","content":"Tra no cho ban"}
+10-09-20 16:29:27,492 40 11874 [Timer-2] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020091016172677153220001","RequestTime":"2020-09-10 16:17:26.0","PartnerCode":"PARTNERTEST","Operation":"","BankNo":"970418","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"159972944670710003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUY?N TH? ?I?P","currency":"VND","content":"Chuyen tien cho a"}
+10-09-20 22:37:07,960 88 22072342 [Timer-2] FATAL springboot.Bussiness  - scanTransactionToProcess
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:589)
+	at springboot.schedule.ScheduleScanToPushQueue.run(ScheduleScanToPushQueue.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 5 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 8 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 15 more
+10-09-20 22:37:10,713 40 22075095 [Timer-2] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+10-09-20 22:37:10,755 40 22075137 [Timer-2] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:37:36,242 88 22100624 [Timer-1] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30141ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:37:36,290 40 22100672 [Timer-1] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:37:44,706 40 22109088 [Timer-2] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:38:09,494 40 22133876 [Timer-1] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:38:09,495 88 22133877 [Timer-1] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30141ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:42:07,875 88 22372257 [Timer-2] FATAL springboot.Bussiness  - scanTransactionToProcess
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:589)
+	at springboot.schedule.ScheduleScanToPushQueue.run(ScheduleScanToPushQueue.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 5 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 8 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 15 more
+10-09-20 22:42:08,855 40 22373237 [Timer-2] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+10-09-20 22:42:08,856 40 22373238 [Timer-2] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:42:35,885 88 22400267 [Timer-1] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30013ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:42:35,888 40 22400270 [Timer-1] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:42:42,741 40 22407123 [Timer-2] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:43:08,854 40 22433236 [Timer-1] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:43:08,855 88 22433237 [Timer-1] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30013ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:47:07,876 88 22672258 [Timer-2] FATAL springboot.Bussiness  - scanTransactionToProcess
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:589)
+	at springboot.schedule.ScheduleScanToPushQueue.run(ScheduleScanToPushQueue.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 5 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 8 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 15 more
+10-09-20 22:47:08,840 40 22673222 [Timer-2] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+10-09-20 22:47:08,841 40 22673223 [Timer-2] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:47:35,890 88 22700272 [Timer-1] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30016ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:47:35,893 40 22700275 [Timer-1] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:47:42,219 40 22706601 [Timer-2] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:48:08,836 40 22733218 [Timer-1] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:48:08,837 88 22733219 [Timer-1] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30016ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:52:07,877 88 22972259 [Timer-2] FATAL springboot.Bussiness  - scanTransactionToProcess
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:589)
+	at springboot.schedule.ScheduleScanToPushQueue.run(ScheduleScanToPushQueue.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 5 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 8 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 15 more
+10-09-20 22:52:08,860 40 22973242 [Timer-2] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+10-09-20 22:52:08,861 40 22973243 [Timer-2] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:52:35,896 88 23000278 [Timer-1] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30022ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:52:35,899 40 23000281 [Timer-1] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:52:42,033 40 23006415 [Timer-2] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:53:08,866 40 23033248 [Timer-1] INFO  springboot.utils.EmailProcess  - gui email thanh cong toi danh sach: vietda@imediatech.com.vn,
+10-09-20 22:53:08,866 88 23033248 [Timer-1] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30022ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:57:07,877 88 23272259 [Timer-2] FATAL springboot.Bussiness  - scanTransactionToProcess
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:589)
+	at springboot.schedule.ScheduleScanToPushQueue.run(ScheduleScanToPushQueue.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 5 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 8 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 15 more
+10-09-20 22:57:08,845 40 23273227 [Timer-2] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+10-09-20 22:57:08,847 40 23273229 [Timer-2] INFO  springboot.utils.EmailProcess  - dang gui email
+10-09-20 22:57:35,893 88 23300275 [Timer-1] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 30015ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+10-09-20 22:57:35,896 40 23300278 [Timer-1] INFO  springboot.utils.EmailProcess  - dang gui email

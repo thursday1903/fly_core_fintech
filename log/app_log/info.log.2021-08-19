@@ -1,0 +1,18 @@
+19-08-21 18:12:56,159 88 11   [main] FATAL springboot.hbn.home.BaseHibernateHome  - find by findBorrowerByIdNumber failed
+org.hibernate.QueryException: could not resolve property: id_number of: springboot.hbn.entities.TblBorrower
+	at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:83)
+	at org.hibernate.persister.entity.AbstractPropertyMapping.toType(AbstractPropertyMapping.java:77)
+	at org.hibernate.persister.entity.AbstractEntityPersister.getSubclassPropertyTableNumber(AbstractEntityPersister.java:1995)
+	at org.hibernate.persister.entity.BasicEntityPropertyMapping.toColumns(BasicEntityPropertyMapping.java:61)
+	at org.hibernate.persister.entity.AbstractEntityPersister.toColumns(AbstractEntityPersister.java:1970)
+	at org.hibernate.loader.criteria.CriteriaQueryTranslator.getColumns(CriteriaQueryTranslator.java:518)
+	at org.hibernate.loader.criteria.CriteriaQueryTranslator.findColumns(CriteriaQueryTranslator.java:534)
+	at org.hibernate.criterion.SimpleExpression.toSqlString(SimpleExpression.java:82)
+	at org.hibernate.loader.criteria.CriteriaQueryTranslator.getWhereCondition(CriteriaQueryTranslator.java:417)
+	at org.hibernate.loader.criteria.CriteriaJoinWalker.<init>(CriteriaJoinWalker.java:123)
+	at org.hibernate.loader.criteria.CriteriaJoinWalker.<init>(CriteriaJoinWalker.java:92)
+	at org.hibernate.loader.criteria.CriteriaLoader.<init>(CriteriaLoader.java:97)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1663)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.TblBorrowerHome.findBorrowerByIdNumber(TblBorrowerHome.java:57)
+	at springboot.hbn.home.TblBorrowerHome.main(TblBorrowerHome.java:39)

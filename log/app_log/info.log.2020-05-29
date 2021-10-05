@@ -1,0 +1,422 @@
+29-05-20 10:15:22,753 40 1    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+29-05-20 10:15:22,756 40 4    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+29-05-20 10:15:22,980 40 228  [main] INFO  springboot.Bussiness  - DATA:HEHE
+29-05-20 10:15:22,980 40 228  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+29-05-20 10:15:22,981 40 229  [main] INFO  springboot.Bussiness  - VR:true
+29-05-20 10:16:32,556 40 69804 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$15de79ea  - -----------_START FIRM SERVER INSTANCE SUCCESS AT----------Fri May 29 10:16:32 ICT 2020
+29-05-20 10:16:48,209 40 85457 [http-nio-8084-exec-2] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+29-05-20 10:16:48,211 40 85459 [http-nio-8084-exec-2] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-28 14:56:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]
+29-05-20 10:16:48,242 40 85490 [http-nio-8084-exec-2] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-28 14:56:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]:[{"RequestId":"IMT00098_159065257327910002","RequestTime":"2020-05-28 14:56:13","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970418","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"1590652573279100031235","RequestAmount":"50000","ResponseCode":131,"ResponseMessage":"NO FEE ASSIGN TO PARTNER","FinalStatus":"","AccName":"NGUYỄN THỊ ĐIỆP viên","BankBranch":"970418","Memo":"Chuyen xeng cho z"}]
+29-05-20 10:17:33,778 40 131026 [http-nio-8084-exec-3] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+29-05-20 10:17:33,786 40 131034 [http-nio-8084-exec-3] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-28 14:56:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]
+29-05-20 10:18:00,470 40 157718 [http-nio-8084-exec-3] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-28 14:56:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]:[{"RequestId":"IMT00098_159065257327910002","RequestTime":"2020-05-28 14:56:13","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970418","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"1590652573279100031235","RequestAmount":"50000","ResponseCode":131,"ResponseMessage":"NO FEE ASSIGN TO PARTNER","FinalStatus":"","AccName":"NGUYỄN THỊ ĐIỆP viên","BankBranch":"970418","Memo":"Chuyen xeng cho z"}]
+29-05-20 10:18:24,603 40 181851 [http-nio-8084-exec-4] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+29-05-20 10:18:24,606 40 181854 [http-nio-8084-exec-4] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-28 14:56:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]
+29-05-20 10:21:11,943 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+29-05-20 10:21:11,947 40 4    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+29-05-20 10:21:12,147 40 204  [main] INFO  springboot.Bussiness  - DATA:HEHE
+29-05-20 10:21:12,148 40 205  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+29-05-20 10:21:12,148 40 205  [main] INFO  springboot.Bussiness  - VR:true
+29-05-20 10:21:21,330 40 9387 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$16253917  - -----------_START FIRM SERVER INSTANCE SUCCESS AT----------Fri May 29 10:21:21 ICT 2020
+29-05-20 10:21:36,101 40 24158 [http-nio-8084-exec-1] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+29-05-20 10:21:36,103 40 24160 [http-nio-8084-exec-1] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]
+29-05-20 10:21:36,174 40 24231 [http-nio-8084-exec-1] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - TRU TIEN DOI TAC:PARTNERTEST,SO DU TRUOC:262433980,SO DU SAU:262381980,SO TIEN YC:52000
+29-05-20 10:21:36,236 40 24293 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - REQUEST:FirmMessage [RequestId=IMT00098_159065257327910002, RequestTime=2020-05-29 10:21:13, PartnerCode=PARTNERTEST, Operation=9002, BankNo=970418, AccNo=12210000395856, Signature=sig, AccType=0, ReferenceId=1590652573279100031235, RequestAmount=50000TRU TIEN THANH CONG:52000
+29-05-20 10:21:36,262 40 24319 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - OPERATION:INNIT 9002
+29-05-20 10:21:36,262 40 24319 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - DATA BF SIGN:99|TRANSACTION PENDING|1590652573279100031235|2020052910213613195580000|2020-05-29 10:21:36|970418|970418|12210000395856|NGUYEN THI DIEP VIEN|50000|50000
+29-05-20 10:21:36,279 40 24336 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - DATA AF SIGN:S/JutosAn1HV4LZTl9ID8cl/U6WzGwkYxSREjxJeXTUKOQJ+/NEqbaUw2wy4FjtoRXwzvMqIiJEX
+Ux5YF54uhtYRsdCq2csDM/VfYyn8UNGHQDLZ8Lx+GQodXyzptxri370u4RjobSgepTgaVYAntVUh
+v1EdBfiw2wH2yFpIF1I=
+29-05-20 10:21:36,279 40 24336 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - VERIFY RS:true
+29-05-20 10:21:36,280 40 24337 [http-nio-8084-exec-1] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]:[{"RequestId":"IMT00098_159065257327910002","RequestTime":"2020-05-29 10:21:13","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970418","AccNo":"12210000395856","Signature":"S/JutosAn1HV4LZTl9ID8cl/U6WzGwkYxSREjxJeXTUKOQJ+/NEqbaUw2wy4FjtoRXwzvMqIiJEX\nUx5YF54uhtYRsdCq2csDM/VfYyn8UNGHQDLZ8Lx+GQodXyzptxri370u4RjobSgepTgaVYAntVUh\nv1EdBfiw2wH2yFpIF1I=","AccType":"0","ReferenceId":"1590652573279100031235","RequestAmount":"50000","ResponseCode":99,"ResponseMessage":"TRANSACTION PENDING","FinalStatus":"","AccName":"NGUYEN THI DIEP VIEN","TransferAmount":"50000","TransactionId":"2020052910213613195580000","TransactionTime":"2020-05-29 10:21:36","BankBranch":"970418","Memo":"Chuyen xeng cho z"}]
+29-05-20 10:23:21,454 40 129511 [http-nio-8084-exec-5] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+29-05-20 10:23:21,459 40 129516 [http-nio-8084-exec-5] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên Kô kô pảy",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]
+29-05-20 10:23:21,474 40 129531 [http-nio-8084-exec-5] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031235",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên Kô kô pảy",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]:[{"RequestId":"IMT00098_159065257327910002","RequestTime":"2020-05-29 10:21:13","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970418","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"1590652573279100031235","RequestAmount":"50000","ResponseCode":120,"ResponseMessage":"DUPLICATE REFERENCEID","FinalStatus":"","AccName":"NGUYỄN THỊ ĐIỆP viên Kô kô pảy","BankBranch":"970418","Memo":"Chuyen xeng cho z"}]
+29-05-20 10:23:34,403 40 142460 [http-nio-8084-exec-6] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+29-05-20 10:23:34,404 40 142461 [http-nio-8084-exec-6] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031236",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên Kô kô pảy",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]
+29-05-20 10:23:34,441 40 142498 [http-nio-8084-exec-6] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - TRU TIEN DOI TAC:PARTNERTEST,SO DU TRUOC:262381980,SO DU SAU:262329980,SO TIEN YC:52000
+29-05-20 10:23:34,461 40 142518 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - REQUEST:FirmMessage [RequestId=IMT00098_159065257327910002, RequestTime=2020-05-29 10:21:13, PartnerCode=PARTNERTEST, Operation=9002, BankNo=970418, AccNo=12210000395856, Signature=sig, AccType=0, ReferenceId=1590652573279100031236, RequestAmount=50000TRU TIEN THANH CONG:52000
+29-05-20 10:23:34,487 40 142544 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - OPERATION:INNIT 9002
+29-05-20 10:23:34,488 40 142545 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - DATA BF SIGN:99|TRANSACTION PENDING|1590652573279100031236|2020052910233441986980001|2020-05-29 10:23:34|970418|970418|12210000395856|NGUYEN THI DIEP VIEN KO KO PAY|50000|50000
+29-05-20 10:23:34,510 40 142567 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - DATA AF SIGN:CjGuqF7ueU5Lgt4okMQwoaBRAzLOVNB81hp2AJ46dsgvoe+TNKh6uaooFubB+8s0Upqap7sf12AH
+3y1qlRmrbRyWW8oO4J1FlnoFhAHegP7K8LcVlbaPtYR8BpNsXJeVQNMJl+sls32IN0QTF21yPLne
+dgFOuFqLTZT9TI9xvZU=
+29-05-20 10:23:34,513 40 142570 [http-nio-8084-exec-6] INFO  springboot.Bussiness  - VERIFY RS:true
+29-05-20 10:23:34,517 40 142574 [http-nio-8084-exec-6] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9002",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031236",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên Kô kô pảy",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]:[{"RequestId":"IMT00098_159065257327910002","RequestTime":"2020-05-29 10:21:13","PartnerCode":"PARTNERTEST","Operation":9002,"BankNo":"970418","AccNo":"12210000395856","Signature":"CjGuqF7ueU5Lgt4okMQwoaBRAzLOVNB81hp2AJ46dsgvoe+TNKh6uaooFubB+8s0Upqap7sf12AH\n3y1qlRmrbRyWW8oO4J1FlnoFhAHegP7K8LcVlbaPtYR8BpNsXJeVQNMJl+sls32IN0QTF21yPLne\ndgFOuFqLTZT9TI9xvZU=","AccType":"0","ReferenceId":"1590652573279100031236","RequestAmount":"50000","ResponseCode":99,"ResponseMessage":"TRANSACTION PENDING","FinalStatus":"","AccName":"NGUYEN THI DIEP VIEN KO KO PAY","TransferAmount":"50000","TransactionId":"2020052910233441986980001","TransactionTime":"2020-05-29 10:23:34","BankBranch":"970418","Memo":"Chuyen xeng cho z"}]
+29-05-20 10:24:32,511 40 200568 [http-nio-8084-exec-7] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+29-05-20 10:24:32,529 40 200586 [http-nio-8084-exec-7] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9003",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031236",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên Kô kô pảy",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]
+29-05-20 10:24:32,550 40 200607 [http-nio-8084-exec-7] INFO  springboot.Bussiness  - OPERATION:9003
+29-05-20 10:24:32,550 40 200607 [http-nio-8084-exec-7] INFO  springboot.Bussiness  - DATA BF SIGN:200|SUCCESS|1590652573279100031236|2020052910233441986980001|2020-05-29 10:23:34|970418|970418|12210000395856|NGUYEN THI DIEP VIEN KO KO PAY|50000|50000
+29-05-20 10:24:32,603 40 200660 [http-nio-8084-exec-7] INFO  springboot.Bussiness  - DATA AF SIGN:C2Keve/jvDU6frgMfv5deSKUZkbhX7MzOZIJ9diTwgmSt4nOoNgHCAKecNFCW4D2nNJNNGK20Mdk
+hWhyHK6X6tXkU/RNVKQqSEWGM02Bit/AekN25QXuccqHtloDW/gUG5YVT84aV97FO5MwEyuzQfiG
+MJDo87xLqy7L/Gts+k4=
+29-05-20 10:24:32,603 40 200660 [http-nio-8084-exec-7] INFO  springboot.Bussiness  - VERIFY RS:true
+29-05-20 10:24:32,605 40 200662 [http-nio-8084-exec-7] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+    "RequestId": "IMT00098_159065257327910002",
+    "RequestTime": "2020-05-29 10:21:13",
+    "PartnerCode": "PARTNERTEST",
+    "Operation": "9003",
+    "BankNo": "970418",
+    "AccNo": "12210000395856",
+    "Signature": "sig",
+    "AccType": "0",
+    "ReferenceId": "1590652573279100031236",
+    "RequestAmount": "50000",
+    "FinalStatus": "",
+    "STBBankStatus": "",
+    "STBTransId": "",
+    "benfName": "",
+    "currency": "",
+    "content": "",
+    "AccName": "NGUYỄN THỊ ĐIỆP viên Kô kô pảy",
+    "Memo": "Chuyen xeng cho z",
+    "BankBranch": "970418"
+}]:[{"RequestId":"IMT00098_159065257327910002","RequestTime":"2020-05-29 10:21:13","PartnerCode":"PARTNERTEST","Operation":9003,"BankNo":"970418","AccNo":"12210000395856","Signature":"C2Keve/jvDU6frgMfv5deSKUZkbhX7MzOZIJ9diTwgmSt4nOoNgHCAKecNFCW4D2nNJNNGK20Mdk\nhWhyHK6X6tXkU/RNVKQqSEWGM02Bit/AekN25QXuccqHtloDW/gUG5YVT84aV97FO5MwEyuzQfiG\nMJDo87xLqy7L/Gts+k4=","AccType":"0","ReferenceId":"1590652573279100031236","RequestAmount":"50000","ResponseCode":200,"ResponseMessage":"SUCCESS","FinalStatus":"","AccName":"NGUYEN THI DIEP VIEN KO KO PAY","TransferAmount":"50000","TransactionId":"2020052910233441986980001","TransactionTime":"2020-05-29 10:23:34","BankBranch":"970418","Memo":"Chuyen xeng cho z"}]
+29-05-20 13:38:28,648 88 11836705 [Timer-1] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 36132ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more
+29-05-20 13:38:28,847 88 11836904 [Timer-1] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:326)
+	at springboot.Bussiness.timeToReloadCache(Bussiness.java:225)
+	at springboot.schedule.ScheduleReloadCache.run(ScheduleReloadCache.java:17)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLTransientConnectionException: springHikariCP - Connection is not available, request timed out after 36132ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:669)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:183)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:148)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:100)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 23 more
+Caused by: java.sql.SQLRecoverableException: IO Error: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6971)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:9069)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:541)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:162)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:172)
+	... 28 more
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:313)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:479)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:726)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:6968)
+	... 32 more

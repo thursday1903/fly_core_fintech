@@ -1,0 +1,236 @@
+15-12-20 17:24:13,565 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+15-12-20 17:24:13,568 40 3    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+15-12-20 17:24:13,705 40 140  [main] INFO  springboot.Bussiness  - DATA:HEHE
+15-12-20 17:24:13,706 40 141  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+15-12-20 17:24:13,706 40 141  [main] INFO  springboot.Bussiness  - VR:true
+15-12-20 17:24:18,351 40 4786 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$5337b5a1  - -----------_START SERVER SUCCESS AT----------Tue Dec 15 17:24:18 ICT 2020
+15-12-20 17:25:03,007 40 49442 [pool-1-thread-1] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020121418123588787920000","RequestTime":"2020-12-14 17:51:12.0","PartnerCode":"partner_dev","Operation":"","BankNo":"970415","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUYEN THI CA CHEP","currency":"VND","content":"Chuyen tien cho a"}
+15-12-20 17:25:03,008 88 49443 [pool-1-thread-1] FATAL springboot.Bussiness  - routeTransaction
+java.lang.NullPointerException
+	at springboot.Bussiness.routeTransaction(Bussiness.java:1869)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:563)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:25:03,011 88 49446 [pool-1-thread-1] FATAL springboot.Bussiness  - PUSH CACHE FAIL
+java.lang.NullPointerException
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:567)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:25:03,043 40 49478 [pool-1-thread-1] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+15-12-20 17:25:03,055 40 49490 [pool-1-thread-1] INFO  springboot.utils.EmailProcess  - dang gui email
+15-12-20 17:25:05,062 88 51497 [pool-1-thread-1] FATAL springboot.utils.EmailProcess  - 
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t36sm21393222pfg.55 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at springboot.utils.EmailProcess.sendEmailAlert(EmailProcess.java:266)
+	at springboot.ExceptionHandle.handleException(ExceptionHandle.java:34)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:572)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:26:03,004 40 109439 [pool-1-thread-1] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020121418123588787920000","RequestTime":"2020-12-14 17:51:12.0","PartnerCode":"partner_dev","Operation":"","BankNo":"970415","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUYEN THI CA CHEP","currency":"VND","content":"Chuyen tien cho a"}
+15-12-20 17:26:03,004 88 109439 [pool-1-thread-1] FATAL springboot.Bussiness  - routeTransaction
+java.lang.NullPointerException
+	at springboot.Bussiness.routeTransaction(Bussiness.java:1869)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:563)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:26:03,004 88 109439 [pool-1-thread-1] FATAL springboot.Bussiness  - PUSH CACHE FAIL
+java.lang.NullPointerException
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:567)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:26:03,004 40 109439 [pool-1-thread-1] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+15-12-20 17:26:03,005 40 109440 [pool-1-thread-1] INFO  springboot.utils.EmailProcess  - dang gui email
+15-12-20 17:26:04,497 88 110932 [pool-1-thread-1] FATAL springboot.utils.EmailProcess  - 
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n28sm8434526pfq.61 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at springboot.utils.EmailProcess.sendEmailAlert(EmailProcess.java:266)
+	at springboot.ExceptionHandle.handleException(ExceptionHandle.java:34)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:572)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:33:17,810 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+15-12-20 17:33:17,813 40 3    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+15-12-20 17:33:17,999 40 189  [main] INFO  springboot.Bussiness  - DATA:HEHE
+15-12-20 17:33:17,999 40 189  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+15-12-20 17:33:18,000 40 190  [main] INFO  springboot.Bussiness  - VR:true
+15-12-20 17:33:23,292 40 5482 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$ca422ece  - -----------_START SERVER SUCCESS AT----------Tue Dec 15 17:33:23 ICT 2020
+15-12-20 17:34:03,006 40 45196 [pool-1-thread-1] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020121418123588787920000","RequestTime":"2020-12-14 17:51:12.0","PartnerCode":"partner_dev","Operation":"","BankNo":"970415","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUYEN THI CA CHEP","currency":"VND","content":"Chuyen tien cho a"}
+15-12-20 17:35:21,140 88 123330 [pool-1-thread-1] FATAL springboot.Bussiness  - routeTransaction
+java.lang.NullPointerException
+	at springboot.Bussiness.routeTransaction(Bussiness.java:1869)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:563)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:35:21,142 88 123332 [pool-1-thread-1] FATAL springboot.Bussiness  - PUSH CACHE FAIL
+java.lang.NullPointerException
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:567)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:35:21,173 40 123363 [pool-1-thread-1] INFO  springboot.utils.EmailProcess  - RECEIPIENT INVALIDnull
+15-12-20 17:35:21,185 40 123375 [pool-1-thread-1] INFO  springboot.utils.EmailProcess  - dang gui email
+15-12-20 17:35:23,010 88 125200 [pool-1-thread-1] FATAL springboot.utils.EmailProcess  - 
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g3sm12903064pjt.34 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:826)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:761)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:685)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at springboot.utils.EmailProcess.sendEmailAlert(EmailProcess.java:266)
+	at springboot.ExceptionHandle.handleException(ExceptionHandle.java:34)
+	at springboot.Bussiness.scanTransactionToProcess(Bussiness.java:572)
+	at springboot.schedule.ScheduleScanToPushQueue.process(ScheduleScanToPushQueue.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15-12-20 17:36:03,005 40 165195 [pool-1-thread-1] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020121418123588787920000","RequestTime":"2020-12-14 17:51:12.0","PartnerCode":"partner_dev","Operation":"","BankNo":"970415","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUYEN THI CA CHEP","currency":"VND","content":"Chuyen tien cho a"}
+15-12-20 17:36:24,176 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+15-12-20 17:36:24,180 40 4    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+15-12-20 17:36:24,364 40 188  [main] INFO  springboot.Bussiness  - DATA:HEHE
+15-12-20 17:36:24,365 40 189  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+15-12-20 17:36:24,365 40 189  [main] INFO  springboot.Bussiness  - VR:true
+15-12-20 17:36:30,220 40 6044 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$bacaeef4  - -----------_START SERVER SUCCESS AT----------Tue Dec 15 17:36:30 ICT 2020
+15-12-20 17:37:03,007 40 38831 [pool-1-thread-1] INFO  springboot.Bussiness  - MESSAGE TO QUEUE:{"RequestId":"2020121418123588787920000","RequestTime":"2020-12-14 17:51:12.0","PartnerCode":"partner_dev","Operation":"","BankNo":"970415","AccNo":"12210000395856","Signature":"","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","FinalStatus":"","STBBankStatus":"","STBTransId":"","benfName":"NGUYEN THI CA CHEP","currency":"VND","content":"Chuyen tien cho a"}
