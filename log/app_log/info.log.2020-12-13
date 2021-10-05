@@ -1,0 +1,196 @@
+13-12-20 14:18:16,318 88 1    [main] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:351)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'this_.PARTNER_PUBLIC_KEY' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	... 17 more
+13-12-20 14:18:16,497 88 180  [main] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:351)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'this_.PARTNER_PUBLIC_KEY' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	... 17 more
+13-12-20 14:18:16,885 40 568  [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+13-12-20 14:18:16,887 40 570  [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+13-12-20 14:18:17,307 40 990  [main] INFO  springboot.Bussiness  - DATA:HEHE
+13-12-20 14:18:17,308 40 991  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+13-12-20 14:18:17,308 40 991  [main] INFO  springboot.Bussiness  - VR:true
+13-12-20 14:18:24,543 40 8226 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$66d8232b  - -----------_START SERVER SUCCESS AT----------Sun Dec 13 14:18:24 ICT 2020
+13-12-20 14:26:45,103 88 1    [main] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'transfer.tbl_money_tran_temp_fee_assign' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	... 17 more
+13-12-20 14:26:45,197 88 95   [main] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'transfer.tbl_money_tran_temp_fee_assign' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
+	... 17 more
+13-12-20 14:26:45,476 40 374  [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+13-12-20 14:26:45,476 40 374  [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+13-12-20 14:26:45,637 40 535  [main] INFO  springboot.Bussiness  - DATA:HEHE
+13-12-20 14:26:45,638 40 536  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+13-12-20 14:26:45,638 40 536  [main] INFO  springboot.Bussiness  - VR:true
+13-12-20 14:26:51,923 40 6821 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$13967e74  - -----------_START SERVER SUCCESS AT----------Sun Dec 13 14:26:51 ICT 2020
+13-12-20 14:41:21,751 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+13-12-20 14:41:21,754 40 3    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+13-12-20 14:41:21,926 40 175  [main] INFO  springboot.Bussiness  - DATA:HEHE
+13-12-20 14:41:21,927 40 176  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+13-12-20 14:41:21,927 40 176  [main] INFO  springboot.Bussiness  - VR:true
+13-12-20 14:41:27,883 40 6132 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$5fc3e63f  - -----------_START SERVER SUCCESS AT----------Sun Dec 13 14:41:27 ICT 2020

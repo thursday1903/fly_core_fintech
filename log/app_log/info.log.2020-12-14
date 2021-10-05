@@ -1,0 +1,1092 @@
+14-12-20 17:54:41,061 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 17:54:41,064 40 3    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 17:54:41,183 40 122  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 17:54:41,183 40 122  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 17:54:41,183 40 122  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 17:54:45,659 40 4598 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$bb7374bb  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 17:54:45 ICT 2020
+14-12-20 17:58:14,123 40 213062 [http-nio-8084-exec-2] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+14-12-20 17:58:14,124 40 213063 [http-nio-8084-exec-2] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]
+14-12-20 17:58:14,134 88 213073 [http-nio-8084-exec-2] FATAL springboot.Bussiness  - verifySignature fatal:partner_devIMT00098_160794307284010002|2020-12-14 17:51:12|partner_dev|9002|160794307284010003|970415|970415|12210000395856|NGUYEN THI CA CHEP|50000|Chuyen tien cho aSIG:sig
+java.lang.NullPointerException
+	at springboot.Bussiness.verifySignature(Bussiness.java:2298)
+	at springboot.Bussiness.validateParamsTransfer(Bussiness.java:2263)
+	at springboot.Bussiness.processTransfer(Bussiness.java:1225)
+	at springboot.Controller.processFirmRequest(Controller.java:100)
+	at springboot.Controller.servicepost(Controller.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14-12-20 17:58:14,138 40 213077 [http-nio-8084-exec-2] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]:[{"RequestId":"IMT00098_160794307284010002","RequestTime":"2020-12-14 17:51:12","PartnerCode":"partner_dev","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","ResponseCode":103,"ResponseMessage":"INVALID SIGNATURE","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","BankBranch":"970415","Memo":"Chuyen tien cho a"}]
+14-12-20 18:00:16,339 40 335278 [http-nio-8084-exec-5] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+14-12-20 18:00:16,339 40 335278 [http-nio-8084-exec-5] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]
+14-12-20 18:00:16,344 88 335283 [http-nio-8084-exec-5] FATAL springboot.Bussiness  - verifySignature fatal:partner_devIMT00098_160794307284010002|2020-12-14 17:51:12|partner_dev|9002|160794307284010003|970415|970415|12210000395856|NGUYEN THI CA CHEP|50000|Chuyen tien cho aSIG:sig
+java.lang.NullPointerException
+	at springboot.Bussiness.verifySignature(Bussiness.java:2298)
+	at springboot.Bussiness.validateParamsTransfer(Bussiness.java:2263)
+	at springboot.Bussiness.processTransfer(Bussiness.java:1225)
+	at springboot.Controller.processFirmRequest(Controller.java:100)
+	at springboot.Controller.servicepost(Controller.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14-12-20 18:00:16,347 40 335286 [http-nio-8084-exec-5] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]:[{"RequestId":"IMT00098_160794307284010002","RequestTime":"2020-12-14 17:51:12","PartnerCode":"partner_dev","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","ResponseCode":103,"ResponseMessage":"INVALID SIGNATURE","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","BankBranch":"970415","Memo":"Chuyen tien cho a"}]
+14-12-20 18:03:46,853 88 1    [main] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.PropertyAccessException: Null value was assigned to a property of primitive type setter of springboot.hbn.entities.TblMoneyTranTempFeeAssign.tempFeeId
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:111)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:713)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:362)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4718)
+	at org.hibernate.engine.internal.TwoPhaseLoad.doInitializeEntity(TwoPhaseLoad.java:188)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:144)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1115)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:973)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:921)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:68)
+	... 21 more
+14-12-20 18:03:46,889 88 37   [main] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.PropertyAccessException: Null value was assigned to a property of primitive type setter of springboot.hbn.entities.TblMoneyTranTempFeeAssign.tempFeeId
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:111)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:713)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:362)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4718)
+	at org.hibernate.engine.internal.TwoPhaseLoad.doInitializeEntity(TwoPhaseLoad.java:188)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:144)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1115)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:973)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:921)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:68)
+	... 21 more
+14-12-20 18:03:47,045 40 193  [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:03:47,046 40 194  [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:03:47,178 40 326  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:03:47,178 40 326  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:03:47,178 40 326  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:03:51,625 40 4773 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$81d5bdb  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:03:51 ICT 2020
+14-12-20 18:05:36,640 88 1    [main] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.PropertyAccessException: Null value was assigned to a property of primitive type setter of springboot.hbn.entities.TblMoneyTranTempFeeAssign.tempFeeId
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:111)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:713)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:362)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4718)
+	at org.hibernate.engine.internal.TwoPhaseLoad.doInitializeEntity(TwoPhaseLoad.java:188)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:144)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1115)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:973)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:921)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:68)
+	... 21 more
+14-12-20 18:05:36,678 88 39   [main] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.PropertyAccessException: Null value was assigned to a property of primitive type setter of springboot.hbn.entities.TblMoneyTranTempFeeAssign.tempFeeId
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:111)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:713)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:362)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4718)
+	at org.hibernate.engine.internal.TwoPhaseLoad.doInitializeEntity(TwoPhaseLoad.java:188)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:144)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1115)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:973)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:921)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:68)
+	... 21 more
+14-12-20 18:05:36,825 40 186  [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:05:36,825 40 186  [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:05:36,956 40 317  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:05:36,956 40 317  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:05:36,956 40 317  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:05:40,931 40 4292 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$a6eada00  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:05:40 ICT 2020
+14-12-20 18:07:00,966 88 0    [main] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - find by example failed
+org.hibernate.PropertyAccessException: Null value was assigned to a property of primitive type setter of springboot.hbn.entities.TblMoneyTranTempFeeAssign.tempFeeId
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:111)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:713)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:362)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4718)
+	at org.hibernate.engine.internal.TwoPhaseLoad.doInitializeEntity(TwoPhaseLoad.java:188)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:144)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1115)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:973)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:921)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:68)
+	... 21 more
+14-12-20 18:07:01,004 88 38   [main] FATAL springboot.Bussiness  - Bussiness
+org.hibernate.PropertyAccessException: Null value was assigned to a property of primitive type setter of springboot.hbn.entities.TblMoneyTranTempFeeAssign.tempFeeId
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:111)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:713)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:362)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4718)
+	at org.hibernate.engine.internal.TwoPhaseLoad.doInitializeEntity(TwoPhaseLoad.java:188)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:144)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1115)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:973)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:921)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:346)
+	at springboot.Bussiness.loadDatabaseData(Bussiness.java:368)
+	at springboot.Bussiness.<init>(Bussiness.java:212)
+	at springboot.Bussiness.getInstance(Bussiness.java:181)
+	at springboot.main.MainApp.main(MainApp.java:98)
+Caused by: java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.hibernate.property.BasicPropertyAccessor$BasicSetter.set(BasicPropertyAccessor.java:68)
+	... 21 more
+14-12-20 18:07:01,159 40 193  [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:07:01,160 40 194  [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:07:01,283 40 317  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:07:01,283 40 317  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:07:01,283 40 317  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:07:05,511 40 4545 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$a6eada00  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:07:05 ICT 2020
+14-12-20 18:08:24,428 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:08:24,431 40 3    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:08:24,558 40 130  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:08:24,558 40 130  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:08:24,558 40 130  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:08:28,816 40 4388 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$62762f68  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:08:28 ICT 2020
+14-12-20 18:08:34,498 40 10070 [http-nio-8084-exec-1] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+14-12-20 18:08:34,499 40 10071 [http-nio-8084-exec-1] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]
+14-12-20 18:08:34,509 88 10081 [http-nio-8084-exec-1] FATAL springboot.Bussiness  - verifySignature fatal:partner_devIMT00098_160794307284010002|2020-12-14 17:51:12|partner_dev|9002|160794307284010003|970415|970415|12210000395856|NGUYEN THI CA CHEP|50000|Chuyen tien cho aSIG:sig
+java.lang.NullPointerException
+	at springboot.Bussiness.verifySignature(Bussiness.java:2306)
+	at springboot.Bussiness.validateParamsTransfer(Bussiness.java:2263)
+	at springboot.Bussiness.processTransfer(Bussiness.java:1225)
+	at springboot.Controller.processFirmRequest(Controller.java:100)
+	at springboot.Controller.servicepost(Controller.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14-12-20 18:08:34,523 88 10095 [http-nio-8084-exec-1] FATAL springboot.Bussiness  - processTransfer
+java.lang.NullPointerException
+	at springboot.Bussiness.processTransfer(Bussiness.java:1266)
+	at springboot.Controller.processFirmRequest(Controller.java:100)
+	at springboot.Controller.servicepost(Controller.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14-12-20 18:08:34,526 40 10098 [http-nio-8084-exec-1] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]:[{"RequestId":"IMT00098_160794307284010002","RequestTime":"2020-12-14 17:51:12","PartnerCode":"partner_dev","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","ResponseCode":101,"ResponseMessage":"TRANSACTION FAIL-SYSTEM-UNSTABLE","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","BankBranch":"970415","Memo":"Chuyen tien cho a"}]
+14-12-20 18:09:18,632 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:09:18,634 40 2    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:09:18,756 40 124  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:09:18,757 40 125  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:09:18,757 40 125  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:09:23,096 40 4464 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$81198fa  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:09:23 ICT 2020
+14-12-20 18:09:25,083 40 6451 [http-nio-8084-exec-1] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+14-12-20 18:09:25,084 40 6452 [http-nio-8084-exec-1] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]
+14-12-20 18:09:25,099 88 6467 [http-nio-8084-exec-1] FATAL springboot.Bussiness  - processTransfer
+java.lang.NullPointerException
+	at springboot.Bussiness.processTransfer(Bussiness.java:1266)
+	at springboot.Controller.processFirmRequest(Controller.java:100)
+	at springboot.Controller.servicepost(Controller.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14-12-20 18:09:25,102 40 6470 [http-nio-8084-exec-1] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]:[{"RequestId":"IMT00098_160794307284010002","RequestTime":"2020-12-14 17:51:12","PartnerCode":"partner_dev","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","ResponseCode":101,"ResponseMessage":"TRANSACTION FAIL-SYSTEM-UNSTABLE","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","BankBranch":"970415","Memo":"Chuyen tien cho a"}]
+14-12-20 18:10:12,713 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:10:12,715 40 2    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:10:12,832 40 119  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:10:12,832 40 119  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:10:12,833 40 120  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:10:17,016 40 4303 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$76846421  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:10:17 ICT 2020
+14-12-20 18:10:20,057 40 7344 [http-nio-8084-exec-1] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+14-12-20 18:10:20,057 40 7344 [http-nio-8084-exec-1] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]
+14-12-20 18:10:20,070 88 7357 [http-nio-8084-exec-1] FATAL springboot.Bussiness  - processTransfer
+java.lang.NullPointerException
+	at springboot.Bussiness.processTransfer(Bussiness.java:1267)
+	at springboot.Controller.processFirmRequest(Controller.java:100)
+	at springboot.Controller.servicepost(Controller.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14-12-20 18:10:20,074 40 7361 [http-nio-8084-exec-1] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]:[{"RequestId":"IMT00098_160794307284010002","RequestTime":"2020-12-14 17:51:12","PartnerCode":"partner_dev","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","ResponseCode":101,"ResponseMessage":"TRANSACTION FAIL-SYSTEM-UNSTABLE","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","BankBranch":"970415","Memo":"Chuyen tien cho a"}]
+14-12-20 18:11:03,237 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:11:03,239 40 2    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:11:03,362 40 125  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:11:03,362 40 125  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:11:03,362 40 125  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:11:07,795 40 4558 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$7c9205a3  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:11:07 ICT 2020
+14-12-20 18:11:08,049 40 4812 [http-nio-8084-exec-1] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+14-12-20 18:11:08,050 40 4813 [http-nio-8084-exec-1] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]
+14-12-20 18:11:08,072 40 4835 [http-nio-8084-exec-1] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - TRU TIEN DOI TAC:partner_dev,SO DU TRUOC:1000000,SO DU SAU:949000,SO TIEN YC:51000
+14-12-20 18:11:08,107 40 4870 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - REQUEST:FirmMessage [RequestId=IMT00098_160794307284010002, RequestTime=2020-12-14 17:51:12, PartnerCode=partner_dev, Operation=9002, BankNo=970415, AccNo=12210000395856, Signature=sig, AccType=0, ReferenceId=160794307284010003, RequestAmount=50000TRU TIEN THANH CONG:51000
+14-12-20 18:11:08,127 88 4890 [http-nio-8084-exec-1] FATAL springboot.hbn.home.TblMoneyTransferTransactionHome  - persist failed[{"transId":"2020121418110806136970000","referenceId":"160794307284010003","requestId":"IMT00098_160794307284010002","requestTime":"Dec 14, 2020 5:51:12 PM","partnerCode":"partner_dev","bankNo":"970415","accNo":"12210000395856","accType":false,"memo":"Chuyen tien cho a","status":99,"transTime":"Dec 14, 2020 6:11:08 PM","createdAt":"Dec 14, 2020 6:11:08 PM","isUpdate":0,"requestAmount":50000.0,"transferRealAmount":50000.0,"transferFeeAmount":1000.0,"transferFeeType":2,"accName":"NGUYEN THI CA CHEP","appId":"1","branchNo":"970415","scanSucces":0,"chanel":1}]
+org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:69)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:463)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:349)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at springboot.hbn.home.BaseHibernateHome.persist(BaseHibernateHome.java:65)
+	at springboot.Bussiness.processTransfer(Bussiness.java:1279)
+	at springboot.Controller.processFirmRequest(Controller.java:100)
+	at springboot.Controller.servicepost(Controller.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'BRANCH_NO' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2133)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2067)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5175)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2052)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 80 more
+14-12-20 18:11:08,179 40 4942 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - GIAO DICH THAT BAI DO INSERT FAIL:{"transId":"2020121418110806136970000","referenceId":"160794307284010003","requestId":"IMT00098_160794307284010002","requestTime":"Dec 14, 2020 5:51:12 PM","partnerCode":"partner_dev","bankNo":"970415","accNo":"12210000395856","accType":false,"memo":"Chuyen tien cho a","status":99,"transTime":"Dec 14, 2020 6:11:08 PM","createdAt":"Dec 14, 2020 6:11:08 PM","isUpdate":0,"requestAmount":50000.0,"transferRealAmount":50000.0,"transferFeeAmount":1000.0,"transferFeeType":2,"accName":"NGUYEN THI CA CHEP","appId":"1","branchNo":"970415","scanSucces":0,"chanel":1}
+14-12-20 18:11:08,180 40 4943 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - HOAN TIEN CHO GIAO DICH THAT BAI:{"transId":"2020121418110806136970000","referenceId":"160794307284010003","requestId":"IMT00098_160794307284010002","requestTime":"Dec 14, 2020 5:51:12 PM","partnerCode":"partner_dev","bankNo":"970415","accNo":"12210000395856","accType":false,"memo":"Chuyen tien cho a","status":101,"transTime":"Dec 14, 2020 6:11:08 PM","createdAt":"Dec 14, 2020 6:11:08 PM","isUpdate":0,"requestAmount":50000.0,"transferRealAmount":50000.0,"transferFeeAmount":1000.0,"transferFeeType":2,"accName":"NGUYEN THI CA CHEP","appId":"1","branchNo":"970415","scanSucces":0,"chanel":1} TONG SO TIEN:51000.0
+14-12-20 18:11:08,183 40 4946 [http-nio-8084-exec-1] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - PARTNER SAU ROLLBACK:{"partnerId":111119,"partnerCode":"partner_dev","partnerName":"partner_dev","status":true,"createdAt":"Dec 14, 2020","updatedAt":"Dec 14, 2020 6:11:08 PM","typeLimit":true,"availableLimit":1000000,"holdingLimit":0,"charge":2,"partnerPublicKey":"","verifySig":0}
+14-12-20 18:11:09,869 40 6632 [http-nio-8084-exec-1] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]:[{"RequestId":"IMT00098_160794307284010002","RequestTime":"2020-12-14 17:51:12","PartnerCode":"partner_dev","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"sig","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","ResponseCode":101,"ResponseMessage":"TRANSACTION FAIL-SYSTEM-UNSTABLE","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","BankBranch":"970415","Memo":"Chuyen tien cho a"}]
+14-12-20 18:12:24,822 40 0    [main] INFO  springboot.Bussiness  - PRI USE THIS:MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAKGPRhsO48uIuEUayaBPCFp16Dk9x4rWR8v60mczFv/nn9gJrQld4K0w/Pi9/O+5lmO2oouItc30mst8IlUiwYL5itbUPewYKyH5/AYHaExCCHQaltCjnNTsBpn1FPNsZCDAmIE2EbN+Xe7N7koPLDlGbrXwNGlTyszNMOUPVzEhAgMBAAECgYB9CmnFGXIfHnMYMRJqe6DIesdAPluJTi2FZ1yfOQCNEZU6XMrLHBh/kxHH5yuz0pzeEgWeHzIu9Ck2Yp4j7GF+I5LR1l+m33d2JxGhWF1LmMXpkARmtyOqWeWsJpHZwem47Wq4Xok2ycOLDhoTKU1fabv91VHDg9deEGLLhIrjDQJBAOPiQvP/Y20MWb9YLCDc+5IqbI8D9cR95RPOFcWDHzTqQiS5IXpRNM/IzxOSj3c+M0uNuSIWDfOXgzQ/eO77JWcCQQC1fifF2dbqtgSdLd1pzxTreZ9TGQGQeKFLhRMJE3XEmTEylqR2YfuTXL1SrT3yAFH7hyM5/uEncntRHp+8S5g3AkEAvuPf1ehO7x/zZfeEL5stGQl0mnBkxU34QJjXX/Ywg/Dfq0dxJbc0mAHMhMa2atqtuVJkjIsQ8MYwX+nzcazrbQJBAKogpLXBGsYPc0nHaYq6tDh7XI8vnJjJiyDYkFxsonN0ynpKXcYe2Q1s3Id4n92O0Uq/hZTiyDoLBW+oDkIadocCQQCBulAGU5WIguRQ6R/IVB3u3SUl3j24ENaSl6S1D8sNUYPDIdox0l0lRWJZhqoHzaLqIuiAvQp1G0yW+0l9lQza
+14-12-20 18:12:24,824 40 2    [main] INFO  springboot.Bussiness  - PUB USE THIS:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChj0YbDuPLiLhFGsmgTwhadeg5PceK1kfL+tJnMxb/55/YCa0JXeCtMPz4vfzvuZZjtqKLiLXN9JrLfCJVIsGC+YrW1D3sGCsh+fwGB2hMQgh0GpbQo5zU7AaZ9RTzbGQgwJiBNhGzfl3uze5KDyw5Rm618DRpU8rMzTDlD1cxIQIDAQAB
+14-12-20 18:12:24,940 40 118  [main] INFO  springboot.Bussiness  - DATA:HEHE
+14-12-20 18:12:24,940 40 118  [main] INFO  springboot.Bussiness  - SIG:WRWcIw9evQVnKNqw+UK7UvkqWWGPN1TauPaGVqS3gupbyL/fU1k6Z34Eo0yUpTxhrZjyuMcwDoOq
+u4Z49LTbAzFWw2HFD3S4Z2m8oK+s3dOR1fEYXLbJ+aI0tgN6Z4n9XJbV56u8CSCx0ijjetrqRa4/
+g6hnNEQHuGILOld0+wE=
+14-12-20 18:12:24,940 40 118  [main] INFO  springboot.Bussiness  - VR:true
+14-12-20 18:12:29,323 40 4501 [main] INFO  springboot.main.MainApp$$EnhancerBySpringCGLIB$$c36c0454  - -----------_START SERVER SUCCESS AT----------Mon Dec 14 18:12:29 ICT 2020
+14-12-20 18:12:35,871 40 11049 [http-nio-8084-exec-1] INFO  springboot.Controller  - ------------------------------------------------------------------------------------------------------------------------------------
+14-12-20 18:12:35,872 40 11050 [http-nio-8084-exec-1] INFO  springboot.Controller  - >>>>>REQUEST FROM[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]
+14-12-20 18:12:35,897 40 11075 [http-nio-8084-exec-1] INFO  springboot.hbn.home.TblMoneyTransferTransactionHome  - TRU TIEN DOI TAC:partner_dev,SO DU TRUOC:1000000,SO DU SAU:949000,SO TIEN YC:51000
+14-12-20 18:12:35,929 40 11107 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - REQUEST:FirmMessage [RequestId=IMT00098_160794307284010002, RequestTime=2020-12-14 17:51:12, PartnerCode=partner_dev, Operation=9002, BankNo=970415, AccNo=12210000395856, Signature=sig, AccType=0, ReferenceId=160794307284010003, RequestAmount=50000TRU TIEN THANH CONG:51000
+14-12-20 18:12:35,940 40 11118 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - OPERATION:INNIT 9002
+14-12-20 18:12:35,940 40 11118 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - DATA BF SIGN:99|TRANSACTION PENDING|160794307284010003|2020121418123588787920000|2020-12-14 06:12:35|970415|970415|12210000395856|NGUYEN THI CA CHEP|50000|50000
+14-12-20 18:12:35,947 40 11125 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - DATA AF SIGN:X2qrTU06fZSWQuDQxu0k7EVEe3pyWeLEPOPqkZpYU7bl7CE0BWgs+nuAsJ75u09PVneX7vhd8n/wOwoX1z7ap5bm4pzxmwe0uSqiIeGCjOR69CuOUQV8vaa0he330VvtvTzQDd/K0kffYHkUqH8tm2TdcnG0v4JgMA5u/Grb9BQ=
+14-12-20 18:12:35,948 40 11126 [http-nio-8084-exec-1] INFO  springboot.Bussiness  - VERIFY RS:true
+14-12-20 18:12:35,948 40 11126 [http-nio-8084-exec-1] INFO  springboot.Controller  - <<<<<<REQUEST RESPONSE[0:0:0:0:0:0:0:1][{
+	"RequestId": "IMT00098_160794307284010002",
+	"RequestTime": "2020-12-14 17:51:12",
+	"PartnerCode": "partner_dev",
+	"Operation": "9002",
+	"BankNo": "970415",
+	"AccNo": "12210000395856",
+	"Signature": "sig",
+	"AccType": "0",
+	"ReferenceId": "160794307284010003",
+	"RequestAmount": "50000",
+	"FinalStatus": "",
+	"STBBankStatus": "",
+	"STBTransId": "",
+	"benfName": "",
+	"currency": "",
+	"content": "",
+	"AccName": "NGUYEN THI CA CHEP",
+	"Memo": "Chuyen tien cho a",
+	"BankBranch": "970415"
+}]:[{"RequestId":"IMT00098_160794307284010002","RequestTime":"2020-12-14 17:51:12","PartnerCode":"partner_dev","Operation":9002,"BankNo":"970415","AccNo":"12210000395856","Signature":"X2qrTU06fZSWQuDQxu0k7EVEe3pyWeLEPOPqkZpYU7bl7CE0BWgs+nuAsJ75u09PVneX7vhd8n/wOwoX1z7ap5bm4pzxmwe0uSqiIeGCjOR69CuOUQV8vaa0he330VvtvTzQDd/K0kffYHkUqH8tm2TdcnG0v4JgMA5u/Grb9BQ=","AccType":"0","ReferenceId":"160794307284010003","RequestAmount":"50000","ResponseCode":99,"ResponseMessage":"TRANSACTION PENDING","FinalStatus":"","AccName":"NGUYEN THI CA CHEP","TransferAmount":"50000","TransactionId":"2020121418123588787920000","TransactionTime":"2020-12-14 06:12:35","BankBranch":"970415","Memo":"Chuyen tien cho a"}]

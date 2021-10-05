@@ -1,0 +1,438 @@
+20-08-21 10:15:00,653 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 10:15:00,659 40 6    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 10:57:52,384 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 10:57:52,388 40 4    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 10:57:58,522 40 6138 [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
+bill_id:1785
+Khoan vay qua han
+complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+tim thay thong tin email va sdl cua acc co id number:132323232
+email:dkt@mailinator.comphone:0983627863
+20-08-21 10:58:00,614 88 8230 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:277)
+	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:267)
+	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:179)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
+	... 4 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 7 more
+20-08-21 11:06:34,869 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 11:06:34,872 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 11:06:39,328 40 4459 [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
+bill_id:1785
+Khoan vay qua han
+complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+tim thay thong tin email va sdl cua acc co id number:132323232
+email:dkt@mailinator.comphone:0983627863
+20-08-21 11:06:41,399 88 6530 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:277)
+	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:267)
+	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:179)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
+	... 4 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 7 more
+20-08-21 11:18:12,278 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 11:18:12,279 40 1    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 11:18:12,699 40 421  [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
+bill_id:1785
+Khoan vay qua han
+complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+tim thay thong tin email va sdl cua acc co id number:132323232
+email:dkt@mailinator.comphone:0983627863
+20-08-21 11:18:14,754 88 2476 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:295)
+	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:285)
+	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:194)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
+	... 4 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 7 more
+20-08-21 11:39:51,671 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 11:39:51,673 40 2    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 11:56:27,072 40 995401 [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
+bill_id:1785
+Khoan vay qua han
+complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+tim thay thong tin email va sdl cua acc co id number:132323232
+email:dkt@mailinator.comphone:0983627863
+20-08-21 11:56:29,137 88 997466 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:312)
+	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:302)
+	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:198)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
+	... 4 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 7 more
+20-08-21 12:59:49,642 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 12:59:49,644 40 2    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 13:43:10,377 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 13:43:10,384 40 7    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+   <tbody>
+      <tr>
+         <td style="height:78px;width: 50%;">
+            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
+         </td>
+         <td style="height:78px; vertical-align:top; width:523px">
+            <p style="text-align:center">&nbsp;</p>
+            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHáº®N NHáº®C Ná»¢</span></strong></span></span></p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;, Ng&agrave;y ..&hellip;..th&aacute;ng &hellip;.... nÄƒm &hellip;.&hellip;</span></span></strong></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gá»­i</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">CÄƒn cá»© theo há»£p Ä‘á»“ng vay vá»‘n sá»‘: <strong><span >[loan_code]</span> </strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trá»�ng th&ocirc;ng b&aacute;o khoáº£n vay cá»§a &Ocirc;ng/B&agrave; Ä‘ang qu&aacute; háº¡n táº¡i ká»³ thanh to&aacute;n sá»‘: <strong><span >[bill_ind]</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Sá»‘ tiá»�n Ä‘ang bá»‹ qu&aacute; háº¡n táº¡i ká»³ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNÄ�</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ä�á»� nghá»‹ &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoáº£n vay Ä‘ang qu&aacute; háº¡n tr&ecirc;n trong 03 ng&agrave;y ká»ƒ tá»« ng&agrave;y nháº­n Ä‘Æ°á»£c th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">PhÆ°Æ¡ng thá»©c thanh to&aacute;n: Chuyá»ƒn khoáº£n v&agrave;o t&agrave;i khoáº£n Ä‘Æ¡n vá»‹ thá»¥ hÆ°á»Ÿng sau:</span></span></span></p>
+[bank_list]
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ráº¥t mong nháº­n Ä‘Æ°á»£c sá»± há»£p t&aacute;c cá»§a Qu&yacute; kh&aacute;ch. </span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trá»�ng c&aacute;m Æ¡n.</span></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">Ä�áº I DIá»†N THEO PH&Aacute;P LUáº¬T </span></span></strong></span></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+
+20-08-21 13:45:56,527 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 13:45:56,530 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+   <tbody>
+      <tr>
+         <td style="height:78px;width: 50%;">
+            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
+         </td>
+         <td style="height:78px; vertical-align:top; width:523px">
+            <p style="text-align:center">&nbsp;</p>
+            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHáº®N NHáº®C Ná»¢</span></strong></span></span></p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;, Ng&agrave;y ..&hellip;..th&aacute;ng &hellip;.... nÄƒm &hellip;.&hellip;</span></span></strong></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gá»­i</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">CÄƒn cá»© theo há»£p Ä‘á»“ng vay vá»‘n sá»‘: <strong><span >[loan_code]</span> </strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trá»�ng th&ocirc;ng b&aacute;o khoáº£n vay cá»§a &Ocirc;ng/B&agrave; Ä‘ang qu&aacute; háº¡n táº¡i ká»³ thanh to&aacute;n sá»‘: <strong><span >ky_no</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Sá»‘ tiá»�n Ä‘ang bá»‹ qu&aacute; háº¡n táº¡i ká»³ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNÄ�</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ä�á»� nghá»‹ &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoáº£n vay Ä‘ang qu&aacute; háº¡n tr&ecirc;n trong 03 ng&agrave;y ká»ƒ tá»« ng&agrave;y nháº­n Ä‘Æ°á»£c th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">PhÆ°Æ¡ng thá»©c thanh to&aacute;n: Chuyá»ƒn khoáº£n v&agrave;o t&agrave;i khoáº£n Ä‘Æ¡n vá»‹ thá»¥ hÆ°á»Ÿng sau:</span></span></span></p>
+[bank_list]
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ráº¥t mong nháº­n Ä‘Æ°á»£c sá»± há»£p t&aacute;c cá»§a Qu&yacute; kh&aacute;ch. </span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trá»�ng c&aacute;m Æ¡n.</span></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">Ä�áº I DIá»†N THEO PH&Aacute;P LUáº¬T </span></span></strong></span></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+
+20-08-21 13:47:42,248 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 13:47:42,251 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+   <tbody>
+      <tr>
+         <td style="height:78px;width: 50%;">
+            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
+         </td>
+         <td style="height:78px; vertical-align:top; width:523px">
+            <p style="text-align:center">&nbsp;</p>
+            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHáº®N NHáº®C Ná»¢</span></strong></span></span></p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;, Ng&agrave;y ..&hellip;..th&aacute;ng &hellip;.... nÄƒm &hellip;.&hellip;</span></span></strong></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gá»­i</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">CÄƒn cá»© theo há»£p Ä‘á»“ng vay vá»‘n sá»‘: <strong><span >[loan_code]</span> </strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trá»�ng th&ocirc;ng b&aacute;o khoáº£n vay cá»§a &Ocirc;ng/B&agrave; Ä‘ang qu&aacute; háº¡n táº¡i ká»³ thanh to&aacute;n sá»‘: <strong><span >ky_no</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Sá»‘ tiá»�n Ä‘ang bá»‹ qu&aacute; háº¡n táº¡i ká»³ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNÄ�</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ä�á»� nghá»‹ &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoáº£n vay Ä‘ang qu&aacute; háº¡n tr&ecirc;n trong 03 ng&agrave;y ká»ƒ tá»« ng&agrave;y nháº­n Ä‘Æ°á»£c th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">PhÆ°Æ¡ng thá»©c thanh to&aacute;n: Chuyá»ƒn khoáº£n v&agrave;o t&agrave;i khoáº£n Ä‘Æ¡n vá»‹ thá»¥ hÆ°á»Ÿng sau:</span></span></span></p>
+[bank_list]
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ráº¥t mong nháº­n Ä‘Æ°á»£c sá»± há»£p t&aacute;c cá»§a Qu&yacute; kh&aacute;ch. </span></span></span></p>
+<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trá»�ng c&aacute;m Æ¡n.</span></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">Ä�áº I DIá»†N THEO PH&Aacute;P LUáº¬T </span></span></strong></span></span></span></p>
+<p style="text-align:justify">&nbsp;</p>
+
+20-08-21 19:09:33,068 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
+<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
+<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
+<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
+<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
+<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
+<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
+<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
+
+20-08-21 19:09:33,071 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+   <tbody>
+      <tr>
+         <td style="height:78px;width: 50%;">
+            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
+         </td>
+         <td style="height:78px; vertical-align:top; width:523px">
+            <p style="text-align:center">&nbsp;</p>
+            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHẮN NHẮC NỢ</span></strong></span></span></p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<div style="margin:0 auto;width: 720px;">
+	<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;[branch_name], Ng&agrave;y [dd]&hellip;..th&aacute;ng &hellip;[mm].. năm &hellip;.&hellip;[yyyy]</span></span></strong></span></span></p>
+	<p style="text-align:justify">&nbsp;</p>
+	<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gửi</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
+	<p style="text-align:justify">&nbsp;</p>
+	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Căn cứ theo hợp đồng vay vốn số: <strong><span >[loan_code]</span> </strong></span></span></span></p>
+	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: <strong><span >[bill_index]</span></strong></span></span></span></p>
+	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNĐ</span></strong></span></span></span></p>
+	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
+	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau:</span></span></span></p>
+	[bank_list]
+	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </span></span></span></p>
+	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trọng c&aacute;m ơn.</span></span></span></p>
+	<p style="text-align:justify">&nbsp;</p>
+	<p style="text-align:justify">&nbsp;</p>
+	<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">ĐẠI DIỆN THEO PH&Aacute;P LUẬT </span></span></strong></span></span></span></p>
+	<p style="text-align:justify">&nbsp;</p>
+</div>
+

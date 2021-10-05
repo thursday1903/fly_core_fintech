@@ -1,0 +1,25 @@
+app.context_root: /sandbox
+app.spring:
+    profiles: prod
+app.name: prod-YAML
+app.environment: test
+app.servers: 
+    - www.abc.com
+    - www.xyz.com
+app.listen_port: 8084
+app.server.tomcat.max-threads: 300
+app.time_to_reload: 10000
+app.datasource.driver-class-name: oracle.jdbc.OracleDriver
+app.schedule: 
+app.whitelist_ip: 
+    - 127.0.0.1
+app.cron.scan_trs_to_push_queue: 3 * * * * 3000
+app.classNeedCache:
+    - springboot.hbn.entities.TblProduct,tbl_product
+    #- springboot.hbn.entities.TblExtraFee,tbl_extra_fee
+    #- springboot.hbn.entities.TblRateConfig,tbl_rate_config
+app.mongo_ip: localhost
+app.mongo_port: 27017
+app.mongo_database: fintech_data
+app.cron.scan_reload_mongo_data: 0 0/5 * * * ?
+app.cron.scan_notify_email: 0 0/1 * * * ?
