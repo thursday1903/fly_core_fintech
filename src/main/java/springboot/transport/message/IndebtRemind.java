@@ -1,5 +1,8 @@
 package springboot.transport.message;
 
+import com.sun.jersey.core.header.InBoundHeaders;
+
+import springboot.utils.GsonUltilities;
 
 /**
  * @author T490
@@ -73,5 +76,13 @@ public class IndebtRemind {
 				+ ", smsContent=" + smsContent + ", emailSubject=" + emailSubject + "]";
 	}
 	
-	
+	public static void main(String[] args) {
+		IndebtRemind indebtRemind = new IndebtRemind();
+		indebtRemind.setBill_id(4273);
+		indebtRemind.setLoan_id(348);
+		indebtRemind.setLoan_code("BHVN.54.10411");
+		System.out.println(GsonUltilities.toJson(indebtRemind));
+		
+		String json = "{\"loan_code\":\"BHVN.54.10411\",\"loan_id\":348,\"bill_id\":4273}";
+	}
 }
