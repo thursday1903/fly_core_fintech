@@ -96,12 +96,29 @@ public class BaseMongo {
 		return true;
 	}
 
+	
+	
 	public Boolean insertDocument(String collection, Document doc) {
 		// TODO Auto-generated method stub
 		try {
 			// Fetching the collection from the mongodb.
 			MongoCollection<Document> coll = db.getCollection(collection);
 			coll.insertOne(doc);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+	
+	public Boolean insertMany(String collection, List docList) {
+		// TODO Auto-generated method stub
+		try {
+			// Fetching the collection from the mongodb.
+			MongoCollection<Document> coll = db.getCollection(collection);
+//			coll.insertOne(doc);
+			coll.insertMany(docList);
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
