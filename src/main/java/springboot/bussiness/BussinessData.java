@@ -718,6 +718,7 @@ public class BussinessData {
 			e.printStackTrace();
 		}
 	}
+	
 	public void loanInsuranceFeeMapApi() {
 		try {
 			String collection = "tbl_insurance_fee_mapp_api";
