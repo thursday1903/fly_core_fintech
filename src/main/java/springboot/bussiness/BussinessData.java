@@ -30,6 +30,7 @@ import springboot.hbn.entities.TblQuestions;
 import springboot.hbn.entities.TblRateConfig2;
 import springboot.hbn.entities.TblSponsor;
 import springboot.hbn.entities.TblSystemConfigurations;
+import springboot.hbn.entities.TblVaAccLoan;
 import springboot.hbn.entities.TransasctionRoom;
 import springboot.hbn.home.TblProductHome;
 import springboot.hbn.home.TblSponsorHome;
@@ -83,13 +84,16 @@ public class BussinessData {
 					TblProduct2 tblProduct = (TblProduct2) obj;
 					String json = GsonUltilities.toJson(tblProduct);
 					Bson filter = new Document("product_id", tblProduct.getProductId());
-//					Long updateRs = BaseMongo.getInstance().updateByBson(collection, filter, json);
+					// Long updateRs =
+					// BaseMongo.getInstance().updateByBson(collection, filter,
+					// json);
 					Long updateRs = new Long(-1);
 					if (updateRs <= 0) {
 						System.out.println("update fail, auto insert:" + tblProduct.getProductId() + "_"
 								+ tblProduct.getProductName());
 						Document document_ = Document.parse(json);
-//						BaseMongo.getInstance().insertDocument(collection, document_);
+						// BaseMongo.getInstance().insertDocument(collection,
+						// document_);
 						docList.add(document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getProductId());
@@ -99,7 +103,9 @@ public class BussinessData {
 					e.printStackTrace();
 				}
 			}
+			if (docList.size() > 0) {
 			BaseMongo.getInstance().insertMany(collection, docList);
+			}
 			LOGGER.info("load complete:" + collection);
 		} catch (Exception e) {
 			// TODO: handle exception
@@ -119,15 +125,17 @@ public class BussinessData {
 					TblExtraFee2 tblProduct = (TblExtraFee2) obj;
 					String json = GsonUltilities.toJson(tblProduct);
 					Bson filter = new Document("extra_fee_id", tblProduct.getExtraFeeId());
-					Long updateRs = new Long(-1); 
-//							BaseMongo.getInstance().updateByBson(collection, filter, json);
+					Long updateRs = new Long(-1);
+					// BaseMongo.getInstance().updateByBson(collection, filter,
+					// json);
 					if (updateRs <= 0) {
 						System.out.println("update fail, auto insert:" + tblProduct.getExtraFeeId() + "_"
 								+ tblProduct.getExtraFeeName());
 						Document document_ = Document.parse(json);
-						
+
 						docList.add(document_);
-//						BaseMongo.getInstance().insertDocument(collection, document_);
+						// BaseMongo.getInstance().insertDocument(collection,
+						// document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getExtraFeeId());
 					}
@@ -136,9 +144,11 @@ public class BussinessData {
 					e.printStackTrace();
 				}
 			}
+			if (docList.size() > 0) {
 			BaseMongo.getInstance().insertMany(collection, docList);
+			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -157,13 +167,15 @@ public class BussinessData {
 					TblBorrower tblProduct = (TblBorrower) obj;
 					String json = GsonUltilities.toJson(tblProduct);
 					Bson filter = new Document("borrower_id", tblProduct.getBorrowerId());
-					Long updateRs = new Long(-1); 
-//							BaseMongo.getInstance().updateByBson(collection, filter, json);
+					Long updateRs = new Long(-1);
+					// BaseMongo.getInstance().updateByBson(collection, filter,
+					// json);
 					if (updateRs <= 0) {
 						System.out.println("update fail, auto insert:" + tblProduct.getBorrowerId() + "_"
 								+ tblProduct.getBorrowerName());
 						Document document_ = Document.parse(json);
-//						BaseMongo.getInstance().insertDocument(collection, document_);
+						// BaseMongo.getInstance().insertDocument(collection,
+						// document_);
 						docList.add(document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getBorrowerId());
@@ -171,10 +183,12 @@ public class BussinessData {
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
-					LOGGER.fatal("loadBorrower",e);
+					LOGGER.fatal("loadBorrower", e);
 				}
 			}
+			if (docList.size() > 0) {
 			BaseMongo.getInstance().insertMany(collection, docList);
+			}
 			LOGGER.info("load complete:" + collection);
 		} catch (Exception e) {
 			// TODO: handle exception
@@ -194,25 +208,30 @@ public class BussinessData {
 					TblQuestions tblProduct = (TblQuestions) obj;
 					String json = GsonUltilities.toJson(tblProduct);
 					Bson filter = new Document("question_id", tblProduct.getQuestionId());
-//					Long updateRs = BaseMongo.getInstance().updateByBson(collection, filter, json);
-					Long updateRs = new Long(-1); 
+					// Long updateRs =
+					// BaseMongo.getInstance().updateByBson(collection, filter,
+					// json);
+					Long updateRs = new Long(-1);
 					if (updateRs <= 0) {
 						System.out.println("update fail, auto insert:" + tblProduct.getQuestionId() + "_"
 								+ tblProduct.getQuestionShortDesc());
 						Document document_ = Document.parse(json);
-//						BaseMongo.getInstance().insertDocument(collection, document_);
+						// BaseMongo.getInstance().insertDocument(collection,
+						// document_);
 						docList.add(document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getQuestionId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
-					LOGGER.fatal("loadBorrower",e);
+					LOGGER.fatal("loadBorrower", e);
 				}
 			}
+			if (docList.size() > 0) {
 			BaseMongo.getInstance().insertMany(collection, docList);
-			LOGGER.info("load complete "+collection);
+			}
+			LOGGER.info("load complete " + collection);
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadQuestions", e);
@@ -239,7 +258,7 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getRateId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
@@ -280,7 +299,7 @@ public class BussinessData {
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -326,7 +345,7 @@ public class BussinessData {
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -359,9 +378,11 @@ public class BussinessData {
 					e.printStackTrace();
 				}
 			}
+			if (docList.size() > 0) {
 			BaseMongo.getInstance().insertMany(collection, docList);
+			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -380,26 +401,31 @@ public class BussinessData {
 					TblBanks tblProduct = (TblBanks) obj;
 					String json = GsonUltilities.toJson(tblProduct);
 					Bson filter = new Document("row_id", tblProduct.getRowId());
-//					Long updateRs = BaseMongo.getInstance().updateByBson(collection, filter, json);
+					// Long updateRs =
+					// BaseMongo.getInstance().updateByBson(collection, filter,
+					// json);
 					Long updateRs = new Long(-1);
 					if (updateRs <= 0) {
 						System.out.println(
 								"update fail, auto insert:" + tblProduct.getRowId() + "_" + tblProduct.getBankName());
 						Document document_ = Document.parse(json);
-//						BaseMongo.getInstance().insertDocument(collection, document_);
+						// BaseMongo.getInstance().insertDocument(collection,
+						// document_);
 						docList.add(document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getRowId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
+			if (docList.size() > 0) {
 			BaseMongo.getInstance().insertMany(collection, docList);
+			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -426,14 +452,14 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getBrandId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -460,14 +486,14 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getInsuranceProviderId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -494,14 +520,14 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getMappingId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -528,14 +554,14 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getFeeId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -562,21 +588,21 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getMappingId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void loadInsuranceProviderApi() {
 		try {
 			String collection = "tbl_insurance_providers_api";
@@ -596,21 +622,21 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getInsuranceProviderId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void loanInsuranceFeeApi() {
 		try {
 			String collection = "tbl_insurance_fee_api";
@@ -623,28 +649,69 @@ public class BussinessData {
 					Bson filter = new Document("fee_id", tblProduct.getFeeId());
 					Long updateRs = BaseMongo.getInstance().updateByBson(collection, filter, json);
 					if (updateRs <= 0) {
-						System.out.println("update fail, auto insert:" + tblProduct.getFeeId() + "_"
-								+ tblProduct.getFeeId());
+						System.out.println(
+								"update fail, auto insert:" + tblProduct.getFeeId() + "_" + tblProduct.getFeeId());
 						Document document_ = Document.parse(json);
 						BaseMongo.getInstance().insertDocument(collection, document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getFeeId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
 			e.printStackTrace();
 		}
 	}
-	
+
+	public void loadVaAcc() {
+		try {
+			String collection = "tbl_va_acc_loan";
+			List<Object> lstAcc = PRODUCTHOME.listAllObject(new TblVaAccLoan());
+			BaseMongo.getInstance().cleanCollection(collection);
+			List docList = new ArrayList();
+			for (Object obj : lstAcc) {
+				try {
+					TblVaAccLoan tblVaAcc = (TblVaAccLoan) obj;
+					String json = GsonUltilities.toJson(tblVaAcc);
+					Bson filter = new Document("row_id", tblVaAcc.getVaId());
+					// Long updateRs =
+					// BaseMongo.getInstance().updateByBson(collection, filter,
+					// json);
+					Long updateRs = new Long(-1);
+					if (updateRs <= 0) {
+						System.out.println(
+								"update fail, auto insert:" + tblVaAcc.getVaId() + "_" + tblVaAcc.getLoanCode());
+						Document document_ = Document.parse(json);
+						docList.add(document_);
+					} else {
+						System.out.println("update success cho:" + tblVaAcc.getVaId());
+					}
+
+				} catch (Exception e) {
+					// TODO: handle exception
+					e.printStackTrace();
+				}
+			}
+			if (docList.size() > 0) {
+				BaseMongo.getInstance().insertMany(collection, docList);
+			}
+			LOGGER.info("load complete:" + collection);
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			LOGGER.fatal("loadStableData", e);
+			e.printStackTrace();
+		}
+	}
+
 	public void loadBranch() {
 		try {
 			String collection = "branch";
@@ -656,32 +723,36 @@ public class BussinessData {
 					Branch tblProduct = (Branch) obj;
 					String json = GsonUltilities.toJson(tblProduct);
 					Bson filter = new Document("mapping_id", tblProduct.getRowId());
-//					Long updateRs = BaseMongo.getInstance().updateByBson(collection, filter, json);
+					// Long updateRs =
+					// BaseMongo.getInstance().updateByBson(collection, filter,
+					// json);
 					Long updateRs = new Long(-1);
 					if (updateRs <= 0) {
-						System.out.println("update fail, auto insert:" + tblProduct.getRowId() + "_"
-								+ tblProduct.getRowId());
+						System.out.println(
+								"update fail, auto insert:" + tblProduct.getRowId() + "_" + tblProduct.getRowId());
 						Document document_ = Document.parse(json);
 						docList.add(document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getRowId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
+			if (docList.size() > 0) {
 			BaseMongo.getInstance().insertMany(collection, docList);
+			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void loadTransactionRoom() {
 		try {
 			String collection = "transasction_room";
@@ -695,30 +766,33 @@ public class BussinessData {
 					Bson filter = new Document("mapping_id", tblProduct.getRowId());
 					Long updateRs = BaseMongo.getInstance().updateByBson(collection, filter, json);
 					if (updateRs <= 0) {
-						System.out.println("update fail, auto insert:" + tblProduct.getRowId() + "_"
-								+ tblProduct.getRowId());
+						System.out.println(
+								"update fail, auto insert:" + tblProduct.getRowId() + "_" + tblProduct.getRowId());
 						Document document_ = Document.parse(json);
-//						BaseMongo.getInstance().insertDocument(collection, document_);
+						// BaseMongo.getInstance().insertDocument(collection,
+						// document_);
 						docList.add(document_);
 					} else {
 						System.out.println("update success cho:" + tblProduct.getRowId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
-			BaseMongo.getInstance().insertMany(collection, docList);
+			if (docList.size() > 0) {
+				BaseMongo.getInstance().insertMany(collection, docList);
+			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void loanInsuranceFeeMapApi() {
 		try {
 			String collection = "tbl_insurance_fee_mapp_api";
@@ -738,14 +812,14 @@ public class BussinessData {
 					} else {
 						System.out.println("update success cho:" + tblProduct.getMappingId());
 					}
-					
+
 				} catch (Exception e) {
 					// TODO: handle exception
 					e.printStackTrace();
 				}
 			}
 			LOGGER.info("load complete:" + collection);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			LOGGER.fatal("loadStableData", e);
@@ -784,9 +858,9 @@ public class BussinessData {
 		lstSponsors2.add(tblSponsor3);
 		lstSponsors2.add(tblSponsor4);
 
-//		List<TblSponsor> lstList = union(lstSponsors1, lstSponsors2);
-//		List<Object> newList = new ArrayList<>();
-//		Stream.of(lstSponsors1, lstSponsors2).forEach(newList::addAll);
+		// List<TblSponsor> lstList = union(lstSponsors1, lstSponsors2);
+		// List<Object> newList = new ArrayList<>();
+		// Stream.of(lstSponsors1, lstSponsors2).forEach(newList::addAll);
 		List<TblSponsor> lstList = intersection(lstSponsors1, lstSponsors2);
 
 		for (Object object : lstList) {

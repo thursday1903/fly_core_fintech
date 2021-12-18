@@ -1,56 +1,57 @@
 Manifest-Version: 1.0
-Built-By: T490
-Build-Jdk: 15.0.2
-Class-Path: lib/hibernate-core-4.3.7.Final.jar lib/jboss-logging-3.3.2.F
- inal.jar lib/jboss-logging-annotations-1.2.0.Beta1.jar lib/jboss-transa
- ction-api_1.2_spec-1.0.0.Final.jar lib/hibernate-commons-annotations-4.
- 0.5.Final.jar lib/hibernate-jpa-2.1-api-1.0.0.Final.jar lib/javassist-3
- .18.1-GA.jar lib/antlr-2.7.7.jar lib/jandex-1.1.0.Final.jar lib/spring-
- context-5.0.6.RELEASE.jar lib/spring-aop-5.0.6.RELEASE.jar lib/spring-b
- eans-5.0.6.RELEASE.jar lib/spring-expression-5.0.6.RELEASE.jar lib/spri
- ng-core-5.0.6.RELEASE.jar lib/spring-jcl-5.0.6.RELEASE.jar lib/spring-t
- est-4.1.4.RELEASE.jar lib/spring-orm-4.1.4.RELEASE.jar lib/spring-jdbc-
- 5.0.6.RELEASE.jar lib/spring-tx-5.0.6.RELEASE.jar lib/spring-boot-start
- er-web-2.0.2.RELEASE.jar lib/spring-boot-starter-2.0.2.RELEASE.jar lib/
- spring-boot-2.0.2.RELEASE.jar lib/spring-boot-autoconfigure-2.0.2.RELEA
- SE.jar lib/spring-boot-starter-logging-2.0.2.RELEASE.jar lib/logback-cl
- assic-1.2.3.jar lib/logback-core-1.2.3.jar lib/log4j-to-slf4j-2.10.0.ja
- r lib/log4j-api-2.10.0.jar lib/jul-to-slf4j-1.7.25.jar lib/javax.annota
- tion-api-1.3.2.jar lib/snakeyaml-1.19.jar lib/spring-boot-starter-json-
- 2.0.2.RELEASE.jar lib/jackson-databind-2.9.5.jar lib/jackson-annotation
- s-2.9.0.jar lib/jackson-core-2.9.5.jar lib/jackson-datatype-jdk8-2.9.5.
- jar lib/jackson-datatype-jsr310-2.9.5.jar lib/jackson-module-parameter-
- names-2.9.5.jar lib/spring-boot-starter-tomcat-2.0.2.RELEASE.jar lib/to
- mcat-embed-core-8.5.31.jar lib/tomcat-embed-el-8.5.31.jar lib/tomcat-em
- bed-websocket-8.5.31.jar lib/hibernate-validator-6.0.9.Final.jar lib/va
- lidation-api-2.0.1.Final.jar lib/classmate-1.3.4.jar lib/spring-web-5.0
- .6.RELEASE.jar lib/spring-webmvc-5.0.6.RELEASE.jar lib/spring-boot-star
- ter-jdbc-2.0.2.RELEASE.jar lib/HikariCP-2.7.9.jar lib/spring-boot-start
- er-actuator-2.0.2.RELEASE.jar lib/spring-boot-actuator-autoconfigure-2.
- 0.2.RELEASE.jar lib/spring-boot-actuator-2.0.2.RELEASE.jar lib/micromet
- er-core-1.0.4.jar lib/HdrHistogram-2.1.10.jar lib/LatencyUtils-2.0.3.ja
- r lib/mysql-connector-java-5.1.48.jar lib/h2-1.4.197.jar lib/commons-db
- cp2-2.1.1.jar lib/commons-pool2-2.5.0.jar lib/dom4j-1.6.1.jar lib/xml-a
- pis-1.4.01.jar lib/commons-logging-1.1.1.jar lib/log4j-1.2.17.jar lib/c
- ommons-collections-3.2.1.jar lib/jta-1.1.jar lib/gson-2.8.4.jar lib/Hik
- ariCP-java6-2.3.2.jar lib/slf4j-api-1.7.25.jar lib/jersey-client-1.19.j
- ar lib/jersey-core-1.19.jar lib/jsr311-api-1.1.1.jar lib/httpclient-4.5
- .5.jar lib/httpcore-4.4.9.jar lib/commons-codec-1.11.jar lib/spring-boo
- t-starter-data-redis-2.0.2.RELEASE.jar lib/spring-data-redis-2.0.7.RELE
- ASE.jar lib/spring-data-keyvalue-2.0.7.RELEASE.jar lib/spring-data-comm
- ons-2.0.7.RELEASE.jar lib/spring-oxm-5.0.6.RELEASE.jar lib/spring-conte
- xt-support-5.0.6.RELEASE.jar lib/lettuce-core-5.0.4.RELEASE.jar lib/rea
- ctor-core-3.1.7.RELEASE.jar lib/reactive-streams-1.0.2.jar lib/netty-co
- mmon-4.1.24.Final.jar lib/netty-transport-4.1.24.Final.jar lib/netty-bu
- ffer-4.1.24.Final.jar lib/netty-resolver-4.1.24.Final.jar lib/netty-han
- dler-4.1.24.Final.jar lib/netty-codec-4.1.24.Final.jar lib/jedis-2.9.0.
- jar lib/mail-1.5.0-b01.jar lib/activation-1.1.jar lib/jxl-2.6.12.jar li
- b/json-20180813.jar lib/slf4j-log4j12-1.7.25.jar lib/bcprov-jdk15on-1.6
- 2.jar lib/mongo-java-driver-3.5.0.jar
 Implementation-Title: fly_core_fintech
 Implementation-Version: 0.0.1
+Built-By: Admin
 Implementation-Vendor-Id: sample.api
+Class-Path: lib/hibernate-core-4.3.7.Final.jar lib/jboss-logging-3.3.2
+ .Final.jar lib/jboss-logging-annotations-1.2.0.Beta1.jar lib/jboss-tr
+ ansaction-api_1.2_spec-1.0.0.Final.jar lib/hibernate-commons-annotati
+ ons-4.0.5.Final.jar lib/hibernate-jpa-2.1-api-1.0.0.Final.jar lib/jav
+ assist-3.18.1-GA.jar lib/antlr-2.7.7.jar lib/jandex-1.1.0.Final.jar l
+ ib/spring-context-5.0.6.RELEASE.jar lib/spring-aop-5.0.6.RELEASE.jar 
+ lib/spring-beans-5.0.6.RELEASE.jar lib/spring-expression-5.0.6.RELEAS
+ E.jar lib/spring-core-5.0.6.RELEASE.jar lib/spring-jcl-5.0.6.RELEASE.
+ jar lib/spring-test-4.1.4.RELEASE.jar lib/spring-orm-4.1.4.RELEASE.ja
+ r lib/spring-jdbc-5.0.6.RELEASE.jar lib/spring-tx-5.0.6.RELEASE.jar l
+ ib/spring-boot-starter-web-2.0.2.RELEASE.jar lib/spring-boot-starter-
+ 2.0.2.RELEASE.jar lib/spring-boot-2.0.2.RELEASE.jar lib/spring-boot-a
+ utoconfigure-2.0.2.RELEASE.jar lib/spring-boot-starter-logging-2.0.2.
+ RELEASE.jar lib/logback-classic-1.2.3.jar lib/logback-core-1.2.3.jar 
+ lib/log4j-to-slf4j-2.10.0.jar lib/log4j-api-2.10.0.jar lib/jul-to-slf
+ 4j-1.7.25.jar lib/javax.annotation-api-1.3.2.jar lib/snakeyaml-1.19.j
+ ar lib/spring-boot-starter-json-2.0.2.RELEASE.jar lib/jackson-databin
+ d-2.9.5.jar lib/jackson-annotations-2.9.0.jar lib/jackson-core-2.9.5.
+ jar lib/jackson-datatype-jdk8-2.9.5.jar lib/jackson-datatype-jsr310-2
+ .9.5.jar lib/jackson-module-parameter-names-2.9.5.jar lib/spring-boot
+ -starter-tomcat-2.0.2.RELEASE.jar lib/tomcat-embed-core-8.5.31.jar li
+ b/tomcat-embed-el-8.5.31.jar lib/tomcat-embed-websocket-8.5.31.jar li
+ b/hibernate-validator-6.0.9.Final.jar lib/validation-api-2.0.1.Final.
+ jar lib/classmate-1.3.4.jar lib/spring-web-5.0.6.RELEASE.jar lib/spri
+ ng-webmvc-5.0.6.RELEASE.jar lib/spring-boot-starter-jdbc-2.0.2.RELEAS
+ E.jar lib/HikariCP-2.7.9.jar lib/spring-boot-starter-actuator-2.0.2.R
+ ELEASE.jar lib/spring-boot-actuator-autoconfigure-2.0.2.RELEASE.jar l
+ ib/spring-boot-actuator-2.0.2.RELEASE.jar lib/micrometer-core-1.0.4.j
+ ar lib/HdrHistogram-2.1.10.jar lib/LatencyUtils-2.0.3.jar lib/mysql-c
+ onnector-java-5.1.48.jar lib/h2-1.4.197.jar lib/commons-dbcp2-2.1.1.j
+ ar lib/commons-pool2-2.5.0.jar lib/dom4j-1.6.1.jar lib/xml-apis-1.4.0
+ 1.jar lib/commons-logging-1.1.1.jar lib/log4j-1.2.17.jar lib/commons-
+ collections-3.2.1.jar lib/jta-1.1.jar lib/gson-2.8.4.jar lib/HikariCP
+ -java6-2.3.2.jar lib/slf4j-api-1.7.25.jar lib/jersey-client-1.19.jar 
+ lib/jersey-core-1.19.jar lib/jsr311-api-1.1.1.jar lib/httpclient-4.5.
+ 5.jar lib/httpcore-4.4.9.jar lib/commons-codec-1.11.jar lib/spring-bo
+ ot-starter-data-redis-2.0.2.RELEASE.jar lib/spring-data-redis-2.0.7.R
+ ELEASE.jar lib/spring-data-keyvalue-2.0.7.RELEASE.jar lib/spring-data
+ -commons-2.0.7.RELEASE.jar lib/spring-oxm-5.0.6.RELEASE.jar lib/sprin
+ g-context-support-5.0.6.RELEASE.jar lib/lettuce-core-5.0.4.RELEASE.ja
+ r lib/reactor-core-3.1.7.RELEASE.jar lib/reactive-streams-1.0.2.jar l
+ ib/netty-common-4.1.24.Final.jar lib/netty-transport-4.1.24.Final.jar
+  lib/netty-buffer-4.1.24.Final.jar lib/netty-resolver-4.1.24.Final.ja
+ r lib/netty-handler-4.1.24.Final.jar lib/netty-codec-4.1.24.Final.jar
+  lib/jedis-2.9.0.jar lib/mail-1.5.0-b01.jar lib/activation-1.1.jar li
+ b/jxl-2.6.12.jar lib/json-20180813.jar lib/slf4j-log4j12-1.7.25.jar l
+ ib/bcprov-jdk15on-1.62.jar lib/mongo-java-driver-3.5.0.jar
+Build-Jdk: 1.8.0_311
 Implementation-URL: http://maven.apache.org
-Main-Class: springboot.main.MainApp
 Created-By: Maven Integration for Eclipse
+Main-Class: springboot.main.MainApp
 

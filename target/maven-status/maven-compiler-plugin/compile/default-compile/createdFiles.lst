@@ -1,5 +1,6 @@
 springboot\transport\message\BaseResponse.class
 springboot\utils\EmailProcess$2.class
+springboot\hbn\entities\TblVaAccLoan.class
 springboot\utils\DateConvert.class
 springboot\extra\entities\ViewSponsorStatistic.class
 springboot\hbn\entities\TblInsuranceFee.class

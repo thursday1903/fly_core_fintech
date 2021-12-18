@@ -48,6 +48,7 @@ public class ScheduleReloadCache {
 		BussinessData.getInstance().loadInsuranceProviderApi();
 		BussinessData.getInstance().loadBranch();
 		BussinessData.getInstance().loadTransactionRoom();
+		BussinessData.getInstance().loadVaAcc();
 	}
 
 	@Async

@@ -22,9 +22,9 @@
 		<property name="validationTimeout" value="10000" />
 		<property name="dataSourceProperties">
 			<props>
-				<prop key="url">jdbc:mysql://localhost:3307/</prop>
-				<prop key="user"></prop>
-				<prop key="password"></prop>
+				<prop key="url">jdbc:mysql://localhost:3306/techcore_master?useSSL=false</prop>
+				<prop key="user">root</prop>
+				<prop key="password">Techcore@)@!1</prop>
 				<prop key="useUnicode">Yes</prop>
 				<prop key="characterEncoding">UTF-8</prop>
 			</props>
