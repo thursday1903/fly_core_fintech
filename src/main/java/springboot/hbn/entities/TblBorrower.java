@@ -41,6 +41,8 @@ public class TblBorrower extends MongoBaseObj {
 	private String bank_branch;
 	private int borrower_type;
 	private int branch_id;
+	private Date created_date;
+	private String borrower_gender;
 
 	public TblBorrower() {
 	}
@@ -220,6 +222,25 @@ public class TblBorrower extends MongoBaseObj {
 
 	public void setBranchId(int branchId) {
 		this.branch_id = branchId;
+	}
+	
+	@Temporal(TemporalType.DATE)
+	@Column(name = "created_date", nullable = false)
+	public Date getCreatedDate() {
+		return created_date;
+	}
+
+	public void setCreatedDate(Date createdDate) {
+		this.created_date = createdDate;
+	}
+
+	@Column(name = "borrower_gender", nullable = false)
+	public String getBorrowerGender() {
+		return borrower_gender;
+	}
+
+	public void setBorrowerGender(String borrowerGender) {
+		this.borrower_gender = borrowerGender;
 	}
 
 }

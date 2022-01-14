@@ -1,4 +1,5 @@
-20-08-21 10:15:00,653 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+28-12-21 16:41:07,568 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Tue Dec 28 16:41:07 ICT 2021
+28-12-21 16:42:01,237 40 53669 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
 <p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
 <p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
 <p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
@@ -8,403 +9,7 @@
 <p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
 <p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
 
-20-08-21 10:15:00,659 40 6    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 10:57:52,384 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 10:57:52,388 40 4    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 10:57:58,522 40 6138 [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
-bill_id:1785
-Khoan vay qua han
-complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-tim thay thong tin email va sdl cua acc co id number:132323232
-email:dkt@mailinator.comphone:0983627863
-20-08-21 10:58:00,614 88 8230 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
-org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
-	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:277)
-	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:267)
-	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:179)
-Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at redis.clients.jedis.Connection.connect(Connection.java:207)
-	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
-	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
-	... 4 more
-Caused by: java.net.SocketTimeoutException: connect timed out
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
-	at java.net.Socket.connect(Socket.java:606)
-	at redis.clients.jedis.Connection.connect(Connection.java:184)
-	... 7 more
-20-08-21 11:06:34,869 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 11:06:34,872 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 11:06:39,328 40 4459 [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
-bill_id:1785
-Khoan vay qua han
-complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-tim thay thong tin email va sdl cua acc co id number:132323232
-email:dkt@mailinator.comphone:0983627863
-20-08-21 11:06:41,399 88 6530 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
-org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
-	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:277)
-	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:267)
-	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:179)
-Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at redis.clients.jedis.Connection.connect(Connection.java:207)
-	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
-	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
-	... 4 more
-Caused by: java.net.SocketTimeoutException: connect timed out
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
-	at java.net.Socket.connect(Socket.java:606)
-	at redis.clients.jedis.Connection.connect(Connection.java:184)
-	... 7 more
-20-08-21 11:18:12,278 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 11:18:12,279 40 1    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 11:18:12,699 40 421  [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
-bill_id:1785
-Khoan vay qua han
-complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-tim thay thong tin email va sdl cua acc co id number:132323232
-email:dkt@mailinator.comphone:0983627863
-20-08-21 11:18:14,754 88 2476 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
-org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
-	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:295)
-	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:285)
-	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:194)
-Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at redis.clients.jedis.Connection.connect(Connection.java:207)
-	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
-	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
-	... 4 more
-Caused by: java.net.SocketTimeoutException: connect timed out
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
-	at java.net.Socket.connect(Socket.java:606)
-	at redis.clients.jedis.Connection.connect(Connection.java:184)
-	... 7 more
-20-08-21 11:39:51,671 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 11:39:51,673 40 2    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 11:56:27,072 40 995401 [main] INFO  springboot.bussiness.BussinessLoanProcess  - kq process notify:loan_id:1785
-bill_id:1785
-Khoan vay qua han
-complete compose content:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  Đào Khánh Trung</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: BHVN.24.10224 </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: 1,339,523 VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-tim thay thong tin email va sdl cua acc co id number:132323232
-email:dkt@mailinator.comphone:0983627863
-20-08-21 11:56:29,137 88 997466 [main] FATAL springboot.bussiness.BussinessLoanProcess  - pushTransactionToRedisQueue
-org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
-	at springboot.bussiness.BussinessLoanProcess.pushTransactionToRedisQueue(BussinessLoanProcess.java:312)
-	at springboot.bussiness.BussinessLoanProcess.createNotify(BussinessLoanProcess.java:302)
-	at springboot.bussiness.BussinessLoanProcess.main(BussinessLoanProcess.java:198)
-Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
-	at redis.clients.jedis.Connection.connect(Connection.java:207)
-	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
-	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
-	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
-	... 4 more
-Caused by: java.net.SocketTimeoutException: connect timed out
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
-	at java.net.Socket.connect(Socket.java:606)
-	at redis.clients.jedis.Connection.connect(Connection.java:184)
-	... 7 more
-20-08-21 12:59:49,642 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 12:59:49,644 40 2    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 13:43:10,377 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 13:43:10,384 40 7    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHáº®N NHáº®C Ná»¢</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;, Ng&agrave;y ..&hellip;..th&aacute;ng &hellip;.... nÄƒm &hellip;.&hellip;</span></span></strong></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gá»­i</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">CÄƒn cá»© theo há»£p Ä‘á»“ng vay vá»‘n sá»‘: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trá»�ng th&ocirc;ng b&aacute;o khoáº£n vay cá»§a &Ocirc;ng/B&agrave; Ä‘ang qu&aacute; háº¡n táº¡i ká»³ thanh to&aacute;n sá»‘: <strong><span >[bill_ind]</span></strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Sá»‘ tiá»�n Ä‘ang bá»‹ qu&aacute; háº¡n táº¡i ká»³ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNÄ�</span></strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ä�á»� nghá»‹ &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoáº£n vay Ä‘ang qu&aacute; háº¡n tr&ecirc;n trong 03 ng&agrave;y ká»ƒ tá»« ng&agrave;y nháº­n Ä‘Æ°á»£c th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">PhÆ°Æ¡ng thá»©c thanh to&aacute;n: Chuyá»ƒn khoáº£n v&agrave;o t&agrave;i khoáº£n Ä‘Æ¡n vá»‹ thá»¥ hÆ°á»Ÿng sau:</span></span></span></p>
-[bank_list]
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ráº¥t mong nháº­n Ä‘Æ°á»£c sá»± há»£p t&aacute;c cá»§a Qu&yacute; kh&aacute;ch. </span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trá»�ng c&aacute;m Æ¡n.</span></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">Ä�áº I DIá»†N THEO PH&Aacute;P LUáº¬T </span></span></strong></span></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-
-20-08-21 13:45:56,527 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 13:45:56,530 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHáº®N NHáº®C Ná»¢</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;, Ng&agrave;y ..&hellip;..th&aacute;ng &hellip;.... nÄƒm &hellip;.&hellip;</span></span></strong></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gá»­i</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">CÄƒn cá»© theo há»£p Ä‘á»“ng vay vá»‘n sá»‘: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trá»�ng th&ocirc;ng b&aacute;o khoáº£n vay cá»§a &Ocirc;ng/B&agrave; Ä‘ang qu&aacute; háº¡n táº¡i ká»³ thanh to&aacute;n sá»‘: <strong><span >ky_no</span></strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Sá»‘ tiá»�n Ä‘ang bá»‹ qu&aacute; háº¡n táº¡i ká»³ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNÄ�</span></strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ä�á»� nghá»‹ &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoáº£n vay Ä‘ang qu&aacute; háº¡n tr&ecirc;n trong 03 ng&agrave;y ká»ƒ tá»« ng&agrave;y nháº­n Ä‘Æ°á»£c th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">PhÆ°Æ¡ng thá»©c thanh to&aacute;n: Chuyá»ƒn khoáº£n v&agrave;o t&agrave;i khoáº£n Ä‘Æ¡n vá»‹ thá»¥ hÆ°á»Ÿng sau:</span></span></span></p>
-[bank_list]
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ráº¥t mong nháº­n Ä‘Æ°á»£c sá»± há»£p t&aacute;c cá»§a Qu&yacute; kh&aacute;ch. </span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trá»�ng c&aacute;m Æ¡n.</span></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">Ä�áº I DIá»†N THEO PH&Aacute;P LUáº¬T </span></span></strong></span></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-
-20-08-21 13:47:42,248 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 13:47:42,251 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHáº®N NHáº®C Ná»¢</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;, Ng&agrave;y ..&hellip;..th&aacute;ng &hellip;.... nÄƒm &hellip;.&hellip;</span></span></strong></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gá»­i</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">CÄƒn cá»© theo há»£p Ä‘á»“ng vay vá»‘n sá»‘: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trá»�ng th&ocirc;ng b&aacute;o khoáº£n vay cá»§a &Ocirc;ng/B&agrave; Ä‘ang qu&aacute; háº¡n táº¡i ká»³ thanh to&aacute;n sá»‘: <strong><span >ky_no</span></strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Sá»‘ tiá»�n Ä‘ang bá»‹ qu&aacute; háº¡n táº¡i ká»³ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNÄ�</span></strong></span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ä�á»� nghá»‹ &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoáº£n vay Ä‘ang qu&aacute; háº¡n tr&ecirc;n trong 03 ng&agrave;y ká»ƒ tá»« ng&agrave;y nháº­n Ä‘Æ°á»£c th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">PhÆ°Æ¡ng thá»©c thanh to&aacute;n: Chuyá»ƒn khoáº£n v&agrave;o t&agrave;i khoáº£n Ä‘Æ¡n vá»‹ thá»¥ hÆ°á»Ÿng sau:</span></span></span></p>
-[bank_list]
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ráº¥t mong nháº­n Ä‘Æ°á»£c sá»± há»£p t&aacute;c cá»§a Qu&yacute; kh&aacute;ch. </span></span></span></p>
-<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trá»�ng c&aacute;m Æ¡n.</span></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:justify">&nbsp;</p>
-<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">Ä�áº I DIá»†N THEO PH&Aacute;P LUáº¬T </span></span></strong></span></span></span></p>
-<p style="text-align:justify">&nbsp;</p>
-
-20-08-21 19:09:33,068 40 0    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-20-08-21 19:09:33,071 40 3    [main] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+28-12-21 16:42:01,242 40 53674 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
    <tbody>
       <tr>
          <td style="height:78px;width: 50%;">
@@ -436,123 +41,8 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 	<p style="text-align:justify">&nbsp;</p>
 </div>
 
-11-12-21 13:42:36,292 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 13:42:36 ICT 2021
-11-12-21 13:43:01,075 88 24783 [pool-1-thread-1] FATAL springboot.hbn.home.BaseHibernateHome  - find by example failed
-org.hibernate.exception.GenericJDBCException: could not extract ResultSet
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:91)
-	at org.hibernate.loader.Loader.getResultSet(Loader.java:2066)
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1863)
-	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
-	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
-	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
-	at org.hibernate.loader.Loader.doList(Loader.java:2554)
-	at org.hibernate.loader.Loader.doList(Loader.java:2540)
-	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
-	at org.hibernate.loader.Loader.list(Loader.java:2365)
-	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
-	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
-	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
-	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:296)
-	at springboot.bussiness.BussinessLoanProcess.<init>(BussinessLoanProcess.java:74)
-	at springboot.bussiness.BussinessLoanProcess.getInstance(BussinessLoanProcess.java:101)
-	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
-	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.sql.SQLException: No database selected
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
-	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
-	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
-	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
-	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
-	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2020)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:82)
-	... 30 more
-11-12-21 13:43:01,113 88 24821 [pool-1-thread-1] FATAL springboot.utils.EmailProcess  - sendEmailAlert
-javax.mail.internet.AddressException: Illegal address in string ``''
-	at javax.mail.internet.InternetAddress.<init>(InternetAddress.java:114)
-	at springboot.utils.EmailProcess.sendEmailAlert(EmailProcess.java:136)
-	at springboot.hbn.home.BaseHibernateHome.composeAlertAndSend(BaseHibernateHome.java:368)
-	at springboot.hbn.home.BaseHibernateHome.listAllObject(BaseHibernateHome.java:301)
-	at springboot.bussiness.BussinessLoanProcess.<init>(BussinessLoanProcess.java:74)
-	at springboot.bussiness.BussinessLoanProcess.getInstance(BussinessLoanProcess.java:101)
-	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
-	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-11-12-21 13:43:01,169 40 24877 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-11-12-21 13:43:01,170 40 24878 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHẮN NHẮC NỢ</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<div style="margin:0 auto;width: 720px;">
-	<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;[branch_name], Ng&agrave;y [dd]&hellip;..th&aacute;ng &hellip;[mm].. năm &hellip;.&hellip;[yyyy]</span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gửi</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Căn cứ theo hợp đồng vay vốn số: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: <strong><span >[bill_index]</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNĐ</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau:</span></span></span></p>
-	[bank_list]
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trọng c&aacute;m ơn.</span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">ĐẠI DIỆN THEO PH&Aacute;P LUẬT </span></span></strong></span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-</div>
-
-11-12-21 13:43:01,170 40 24878 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 13:43:03,179 88 26887 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+28-12-21 16:42:01,243 40 53675 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 16:42:03,252 88 55684 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
 org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
 	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
@@ -599,8 +89,172 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 	at java.net.Socket.connect(Socket.java:589)
 	at redis.clients.jedis.Connection.connect(Connection.java:184)
 	... 27 more
-11-12-21 13:45:25,052 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 13:45:25 ICT 2021
-11-12-21 13:46:01,442 40 36390 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+28-12-21 16:43:00,014 40 112446 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 16:43:02,026 88 114458 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 16:44:00,006 40 172438 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 16:44:02,020 88 174452 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 16:45:00,007 40 232439 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 16:45:02,009 88 234441 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 16:45:02,447 40 234879 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
+28-12-21 16:45:03,637 40 236069 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_product
+28-12-21 16:45:03,764 40 236196 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_extra_fee
+28-12-21 16:45:03,906 40 236338 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete tbl_questions
+28-12-21 16:45:04,034 40 236466 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_rate_config
+28-12-21 16:45:04,158 40 236590 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_sponsor
+28-12-21 16:45:04,243 40 236675 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_system_configurations
+28-12-21 16:45:04,360 40 236792 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_banks
+28-12-21 16:45:04,460 40 236892 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_brand
+28-12-21 16:45:04,557 40 236989 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers
+28-12-21 16:45:04,662 40 237094 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_banks
+28-12-21 16:45:04,748 40 237180 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:black_list
+28-12-21 16:45:04,852 40 237284 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee
+28-12-21 16:45:04,943 40 237375 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp
+28-12-21 16:45:05,048 40 237480 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp_api
+28-12-21 16:45:05,208 40 237640 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_api
+28-12-21 16:45:05,351 40 237783 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers_api
+28-12-21 16:45:05,566 40 237998 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:branch
+28-12-21 16:45:05,694 40 238126 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:transasction_room
+28-12-21 16:45:05,784 40 238216 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_va_acc_loan
+28-12-21 16:52:07,872 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Tue Dec 28 16:52:07 ICT 2021
+28-12-21 16:53:03,126 40 55254 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
 <p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
 <p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
 <p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
@@ -610,7 +264,7 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 <p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
 <p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
 
-11-12-21 13:46:01,444 40 36392 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+28-12-21 16:53:03,127 40 55255 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
    <tbody>
       <tr>
          <td style="height:78px;width: 50%;">
@@ -642,12 +296,162 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 	<p style="text-align:justify">&nbsp;</p>
 </div>
 
-11-12-21 13:46:01,445 40 36393 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 13:46:01,545 40 36493 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 13:47:00,009 40 94957 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 13:47:00,075 40 95023 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 13:48:39,827 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 13:48:39 ICT 2021
-11-12-21 13:49:01,165 40 21338 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+28-12-21 16:53:03,128 40 55256 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 16:53:05,139 88 57267 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 16:54:00,006 40 112134 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 16:54:02,019 88 114147 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 16:55:00,006 40 172134 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 16:55:02,013 88 174141 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 16:55:02,407 40 174535 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
+28-12-21 16:55:03,572 40 175700 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_product
+28-12-21 16:55:03,700 40 175828 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_extra_fee
+28-12-21 16:55:03,821 40 175949 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete tbl_questions
+28-12-21 16:55:03,930 40 176058 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_rate_config
+28-12-21 16:55:04,042 40 176170 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_sponsor
+28-12-21 16:55:04,126 40 176254 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_system_configurations
+28-12-21 16:55:04,240 40 176368 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_banks
+28-12-21 16:55:04,329 40 176457 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_brand
+28-12-21 16:55:04,421 40 176549 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers
+28-12-21 16:59:09,502 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Tue Dec 28 16:59:09 ICT 2021
+28-12-21 17:00:01,260 40 51758 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
 <p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
 <p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
 <p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
@@ -657,7 +461,7 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 <p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
 <p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
 
-11-12-21 13:49:01,167 40 21340 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+28-12-21 17:00:01,261 40 51759 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
    <tbody>
       <tr>
          <td style="height:78px;width: 50%;">
@@ -689,32 +493,57 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 	<p style="text-align:justify">&nbsp;</p>
 </div>
 
-11-12-21 13:49:01,167 40 21340 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 13:49:01,375 40 21548 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 13:50:00,292 40 80465 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
-11-12-21 13:50:00,693 40 80866 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_product
-11-12-21 13:50:00,793 40 80966 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_extra_fee
-11-12-21 13:50:00,905 40 81078 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete tbl_questions
-11-12-21 13:50:01,037 40 81210 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_rate_config
-11-12-21 13:50:01,158 40 81331 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_sponsor
-11-12-21 13:50:01,255 40 81428 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_system_configurations
-11-12-21 13:50:01,364 40 81537 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_banks
-11-12-21 13:50:01,475 40 81648 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_brand
-11-12-21 13:50:01,576 40 81749 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers
-11-12-21 13:50:01,676 40 81849 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_banks
-11-12-21 13:50:01,781 40 81954 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:black_list
-11-12-21 13:50:01,928 40 82101 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee
-11-12-21 13:50:02,037 40 82210 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp
-11-12-21 13:50:02,125 40 82298 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp_api
-11-12-21 13:50:02,266 40 82439 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_api
-11-12-21 13:50:02,404 40 82577 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers_api
-11-12-21 13:50:02,555 40 82728 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:branch
-11-12-21 13:50:02,659 40 82832 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:transasction_room
-11-12-21 13:50:02,759 40 82932 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_va_acc_loan
-11-12-21 13:50:02,760 40 82933 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 13:50:02,826 40 82999 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 13:53:57,192 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 13:53:57 ICT 2021
-11-12-21 13:54:01,208 40 4016 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
+28-12-21 17:00:01,261 40 51759 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 17:00:03,266 88 53764 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 17:00:03,652 40 54150 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
+28-12-21 17:02:46,966 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Tue Dec 28 17:02:46 ICT 2021
+28-12-21 17:03:01,341 40 14375 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
 <p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
 <p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
 <p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
@@ -724,7 +553,7 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 <p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
 <p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
 
-11-12-21 13:54:01,209 40 4017 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
+28-12-21 17:03:01,344 40 14378 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
    <tbody>
       <tr>
          <td style="height:78px;width: 50%;">
@@ -756,251 +585,148 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 	<p style="text-align:justify">&nbsp;</p>
 </div>
 
-11-12-21 13:54:01,209 40 4017 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 13:54:01,496 40 4304 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 13:55:00,004 40 62812 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 13:55:00,080 40 62888 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 13:55:00,396 40 63204 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
-11-12-21 13:55:01,411 40 64219 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_product
-11-12-21 13:55:01,560 40 64368 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_extra_fee
-11-12-21 13:55:01,720 40 64528 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete tbl_questions
-11-12-21 13:55:01,860 40 64668 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_rate_config
-11-12-21 13:55:01,976 40 64784 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_sponsor
-11-12-21 13:55:02,058 40 64866 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_system_configurations
-11-12-21 13:55:02,178 40 64986 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_banks
-11-12-21 13:55:02,277 40 65085 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_brand
-11-12-21 13:55:02,365 40 65173 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers
-11-12-21 13:55:02,476 40 65284 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_banks
-11-12-21 13:55:02,578 40 65386 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:black_list
-11-12-21 13:55:02,692 40 65500 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee
-11-12-21 13:55:02,777 40 65585 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp
-11-12-21 13:55:02,863 40 65671 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp_api
-11-12-21 13:55:02,953 40 65761 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_api
-11-12-21 13:55:03,043 40 65851 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers_api
-11-12-21 13:55:03,189 40 65997 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:branch
-11-12-21 13:55:03,272 40 66080 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:transasction_room
-11-12-21 13:55:03,357 40 66165 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_va_acc_loan
-11-12-21 14:02:44,393 40 5    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 14:02:44 ICT 2021
-11-12-21 14:03:01,059 40 16671 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-11-12-21 14:03:01,086 40 16698 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHẮN NHẮC NỢ</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<div style="margin:0 auto;width: 720px;">
-	<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;[branch_name], Ng&agrave;y [dd]&hellip;..th&aacute;ng &hellip;[mm].. năm &hellip;.&hellip;[yyyy]</span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gửi</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Căn cứ theo hợp đồng vay vốn số: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: <strong><span >[bill_index]</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNĐ</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau:</span></span></span></p>
-	[bank_list]
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trọng c&aacute;m ơn.</span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">ĐẠI DIỆN THEO PH&Aacute;P LUẬT </span></span></strong></span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-</div>
-
-11-12-21 14:03:01,087 40 16699 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 14:03:01,296 40 16908 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 14:05:22,091 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 14:05:22 ICT 2021
-11-12-21 14:06:01,176 40 39085 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-11-12-21 14:06:01,179 40 39088 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHẮN NHẮC NỢ</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<div style="margin:0 auto;width: 720px;">
-	<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;[branch_name], Ng&agrave;y [dd]&hellip;..th&aacute;ng &hellip;[mm].. năm &hellip;.&hellip;[yyyy]</span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gửi</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Căn cứ theo hợp đồng vay vốn số: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: <strong><span >[bill_index]</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNĐ</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau:</span></span></span></p>
-	[bank_list]
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trọng c&aacute;m ơn.</span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">ĐẠI DIỆN THEO PH&Aacute;P LUẬT </span></span></strong></span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-</div>
-
-11-12-21 14:06:01,179 40 39088 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 14:06:01,254 40 39163 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 14:07:00,004 40 97913 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 14:07:00,067 40 97976 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 14:08:00,005 40 157914 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 14:08:00,067 40 157976 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 14:09:19,172 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 14:09:19 ICT 2021
-11-12-21 14:10:01,279 40 42107 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
-11-12-21 14:10:02,883 40 43711 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_product
-11-12-21 14:10:03,024 40 43852 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_extra_fee
-11-12-21 14:10:03,198 40 44026 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete tbl_questions
-11-12-21 14:10:03,321 40 44149 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_rate_config
-11-12-21 14:10:03,447 40 44275 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_sponsor
-11-12-21 14:10:03,542 40 44370 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_system_configurations
-11-12-21 14:10:03,656 40 44484 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_banks
-11-12-21 14:10:03,750 40 44578 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_brand
-11-12-21 14:10:03,837 40 44665 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers
-11-12-21 14:10:03,934 40 44762 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_banks
-11-12-21 14:10:04,026 40 44854 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:black_list
-11-12-21 14:10:04,124 40 44952 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee
-11-12-21 14:10:04,204 40 45032 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp
-11-12-21 14:10:04,288 40 45116 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp_api
-11-12-21 14:10:04,382 40 45210 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_api
-11-12-21 14:10:04,477 40 45305 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers_api
-11-12-21 14:10:04,591 40 45419 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:branch
-11-12-21 14:10:04,671 40 45499 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:transasction_room
-11-12-21 14:10:04,755 40 45583 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_va_acc_loan
-11-12-21 14:10:04,925 40 45753 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-11-12-21 14:10:04,926 40 45754 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHẮN NHẮC NỢ</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<div style="margin:0 auto;width: 720px;">
-	<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;[branch_name], Ng&agrave;y [dd]&hellip;..th&aacute;ng &hellip;[mm].. năm &hellip;.&hellip;[yyyy]</span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gửi</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Căn cứ theo hợp đồng vay vốn số: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: <strong><span >[bill_index]</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNĐ</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau:</span></span></span></p>
-	[bank_list]
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trọng c&aacute;m ơn.</span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">ĐẠI DIỆN THEO PH&Aacute;P LUẬT </span></span></strong></span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-</div>
-
-11-12-21 14:10:04,926 40 45754 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 14:10:04,998 40 45826 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
-11-12-21 14:14:44,039 40 0    [main] INFO  springboot.hbn.home.BaseHibernateHome  - -----------_START SERVER SUCCESS AT----------Sat Dec 11 14:14:44 ICT 2021
-11-12-21 14:15:01,452 40 17413 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
-11-12-21 14:15:02,612 40 18573 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_product
-11-12-21 14:15:02,743 40 18704 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_extra_fee
-11-12-21 14:15:02,879 40 18840 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete tbl_questions
-11-12-21 14:15:02,993 40 18954 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_rate_config
-11-12-21 14:15:03,103 40 19064 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_sponsor
-11-12-21 14:15:03,187 40 19148 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_system_configurations
-11-12-21 14:15:03,299 40 19260 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_banks
-11-12-21 14:15:03,395 40 19356 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_brand
-11-12-21 14:15:03,486 40 19447 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers
-11-12-21 14:15:03,579 40 19540 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_banks
-11-12-21 14:15:03,667 40 19628 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:black_list
-11-12-21 14:15:03,772 40 19733 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee
-11-12-21 14:15:03,859 40 19820 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp
-11-12-21 14:15:03,943 40 19904 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_mapp_api
-11-12-21 14:15:04,039 40 20000 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_fee_api
-11-12-21 14:15:04,126 40 20087 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_insurance_providers_api
-11-12-21 14:15:04,250 40 20211 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:branch
-11-12-21 14:15:04,331 40 20292 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:transasction_room
-11-12-21 14:15:04,426 40 20387 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:tbl_va_acc_loan
-11-12-21 14:15:04,602 40 20563 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<p>K&iacute;nh gửi: &Ocirc;ng/B&agrave;  [borrower_fullname]</p> 
-<p>Căn cứ theo hợp đồng vay vốn số: [loan_code] </p>
-<p>Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: [bill_index]</p> 
-<p>Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: [amount_must_pay] VNĐ</p> 
-<p>Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n. </p>
-<p>Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau: </p>
-<p>T&ecirc;n t&agrave;i khoản: [bank_acc_name]</p>&hellip;&hellip;&hellip;&hellip;. <p>Số t&agrave;i khoản: [bank_acc_no]&hellip;&hellip;&hellip;&hellip;&hellip;.. tại Ng&acirc;n h&agrave;ng [bank_name]&hellip;&hellip;&hellip;&hellip;. &ndash; Chi nh&aacute;nh [bank_branch]</p>&hellip;&hellip;&hellip;&hellip;&hellip;.. <p>Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </p>
-<p>Xin tr&acirc;n trọng c&aacute;m ơn. </p>
-<p>ĐẠI DIỆN THEO PH&Aacute;P LUẬT</p>
-
-11-12-21 14:15:04,603 40 20564 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - doc du lieu file success:<table cellspacing="0" class="Table" style="border-collapse:collapse;margin:0 auto;width: 720px;">
-   <tbody>
-      <tr>
-         <td style="height:78px;width: 50%;">
-            <p style="text-align:left"><img alt="" src="https://f000.backblazeb2.com/file/finstorage/1111_20210819074533996493471.png" style="width: 60%;height:auto;margin-top: 20px;" /></p>
-         </td>
-         <td style="height:78px; vertical-align:top; width:523px">
-            <p style="text-align:center">&nbsp;</p>
-            <p style="margin-left:40px; text-align:center"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:16.0pt">TIN NHẮN NHẮC NỢ</span></strong></span></span></p>
-         </td>
-      </tr>
-   </tbody>
-</table>
-<div style="margin:0 auto;width: 720px;">
-	<p style="text-align:center"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&hellip;&hellip;&hellip;&hellip;[branch_name], Ng&agrave;y [dd]&hellip;..th&aacute;ng &hellip;[mm].. năm &hellip;.&hellip;[yyyy]</span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:12.5pt"><span style="font-family:VNI-Helve"><strong><u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">K&iacute;nh gửi</span></span></u><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">: &Ocirc;ng/B&agrave;&nbsp;&nbsp;</span><span ><span style="font-family:&quot;Times New Roman&quot;,serif">[borrower_fullname]</span></span></span></strong></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Căn cứ theo hợp đồng vay vốn số: <strong><span >[loan_code]</span> </strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Ch&uacute;ng t&ocirc;i xin tr&acirc;n trọng th&ocirc;ng b&aacute;o khoản vay của &Ocirc;ng/B&agrave; đang qu&aacute; hạn tại kỳ thanh to&aacute;n số: <strong><span >[bill_index]</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Số tiền đang bị qu&aacute; hạn tại kỳ n&agrave;y l&agrave;: <strong><span >[amount_must_pay]&nbsp;VNĐ</span></strong></span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Đề nghị &Ocirc;ng/B&agrave; nhanh ch&oacute;ng thanh to&aacute;n khoản vay đang qu&aacute; hạn tr&ecirc;n trong 03 ng&agrave;y kể từ ng&agrave;y nhận được th&ocirc;ng b&aacute;o tr&ecirc;n.</span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Phương thức thanh to&aacute;n: Chuyển khoản v&agrave;o t&agrave;i khoản đơn vị thụ hưởng sau:</span></span></span></p>
-	[bank_list]
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Rất mong nhận được sự hợp t&aacute;c của Qu&yacute; kh&aacute;ch. </span></span></span></p>
-	<p style="text-align:justify"><span style="font-size:8pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:11.0pt">Xin tr&acirc;n trọng c&aacute;m ơn.</span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:justify">&nbsp;</p>
-	<p style="text-align:right"><span style="font-size:8pt"><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:12.0pt"><span style="color:#a81010">ĐẠI DIỆN THEO PH&Aacute;P LUẬT </span></span></strong></span></span></span></p>
-	<p style="text-align:justify">&nbsp;</p>
-</div>
-
-11-12-21 14:15:04,603 40 20564 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
-11-12-21 14:15:04,828 40 20789 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - Queue:QUEUE_INDEBT_REMIND,empty
+28-12-21 17:03:01,345 40 14379 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 17:03:03,360 88 16394 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 17:04:00,010 40 73044 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 17:04:02,027 88 75061 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 17:05:00,013 40 133047 [pool-1-thread-1] INFO  springboot.bussiness.BussinessLoanProcess  - scan queue:QUEUE_INDEBT_REMIND
+28-12-21 17:05:02,025 88 135059 [pool-1-thread-1] FATAL springboot.bussiness.BussinessLoanProcess  - composeNotifyEmailAndPushQueue
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:286)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:469)
+	at springboot.bussiness.BussinessLoanProcess.composeNotifyEmailAndPushQueue(BussinessLoanProcess.java:112)
+	at springboot.schedule.ScheduleReloadCache.scanNotifyEmail(ScheduleReloadCache.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:276)
+	... 17 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:207)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:433)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:362)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 20 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:184)
+	... 27 more
+28-12-21 17:05:02,413 40 135447 [pool-1-thread-1] INFO  springboot.bussiness.BussinessData  - load complete:borrower
